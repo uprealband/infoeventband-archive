@@ -30,6 +30,15 @@
     "status": "partial_reconstruction"
   },
   {
+    "date": "2013-02",
+    "event": "A contemporary IEB advertising proposal presents the operating model of InfoEventBand.com: online distribution and SEO, offline event coverage and media partnerships, Ajang Music Charts, radio collaboration, IEB BLAST SMS promotion, mobile web, Android distribution, and paid promotion services. The appendix includes field-coverage photographs and promotional SMS evidence.",
+    "evidence": [
+      "source-ieb-proposal-2013-02",
+      "source-ieb-android-apk-v4-2013"
+    ],
+    "status": "documented_first_party"
+  },
+  {
     "date": "2013-04",
     "event": "A contemporary third-party publication documents IEB supporting an event in Depok, attending for documentation, and distributing IEB 2013 calendars.",
     "evidence": [
