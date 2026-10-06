@@ -19,7 +19,6 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-
           mkdir -p ingest/tmp ingest/candidates
 
           curl -L --fail --silent --show-error \
@@ -28,33 +27,31 @@ jobs:
 
           curl -L --fail --silent --show-error \
             "https://raw.githubusercontent.com/uprealband/perjalanan-band-indie/main/archive-index.json" \
-            -o ingest/snapshots/uprealband-archive-index.json
+            -o ingest/tmp/uprealband-archive-index.json
 
           curl -L --fail --silent --show-error \
             "https://api.github.com/repos/uprealband/perjalanan-band-indie/commits/main" \
             -H "Accept: application/vnd.github+json" \
-            -o ingest/snapshots/uprealband-github-head.json
+            -o ingest/tmp/uprealband-github-head.json
 
       - name: Detect relevant IEB references
         shell: python
         run: |
           import json, pathlib, re
 
-          root = pathlib.Path("ingest/snapshots")
+          root = pathlib.Path("ingest/tmp")
           candidates = []
 
           feed = json.loads((root / "uprealband-blog-feed.json").read_text(encoding="utf-8"))
-          entries = feed.get("feed", {}).get("entry", [])
-
           terms = re.compile(
-              r"(infoeventband|infoeventband\.com|ieb|reflexion|brebeg|"
+              r"(infoeventband|infoeventband\.com|\bieb\b|reflexion|brebeg|"
               r"brebeg online radio|jus brebeg|nc media radio|unity music)",
               re.IGNORECASE
           )
 
-          for entry in entries:
-              text = json.dumps(entry, ensure_ascii=False)
-              if terms.search(text):
+          for entry in feed.get("feed", {}).get("entry", []):
+              raw = json.dumps(entry, ensure_ascii=False)
+              if terms.search(raw):
                   candidates.append({
                       "candidate_type": "blog_post",
                       "source_url": next(
@@ -64,24 +61,23 @@ jobs:
                       ),
                       "title": entry.get("title", {}).get("$t"),
                       "published": entry.get("published", {}).get("$t"),
-                      "reason": "Konten Uprealband memuat istilah/entitas yang berpotensi berkaitan dengan sejarah IEB.",
+                      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
                       "status": "needs_review"
                   })
 
           index = json.loads((root / "uprealband-archive-index.json").read_text(encoding="utf-8"))
-          index_text = json.dumps(index, ensure_ascii=False)
-
-          if terms.search(index_text):
+          if terms.search(json.dumps(index, ensure_ascii=False)):
               candidates.append({
                   "candidate_type": "github_archive_index",
                   "source_url": "https://github.com/uprealband/perjalanan-band-indie/blob/main/archive-index.json",
                   "title": "Uprealband archive-index.json",
-                  "reason": "Indeks arsip GitHub Uprealband memuat istilah/entitas yang berpotensi berkaitan dengan sejarah IEB.",
+                  "reason": "Indeks arsip GitHub Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
                   "status": "needs_review"
               })
 
-          state = json.loads((root / "uprealband-github-head.json").read_text(encoding="utf-8"))
-          head = state.get("sha")
+          head = json.loads(
+              (root / "uprealband-github-head.json").read_text(encoding="utf-8")
+          ).get("sha")
 
           payload = {
               "schema_version": "1.0",
@@ -94,14 +90,19 @@ jobs:
           }
 
           out = pathlib.Path("ingest/candidates/uprealband-candidates.json")
-          out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          new_text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+          old_text = out.read_text(encoding="utf-8") if out.exists() else ""
+
+          if new_text != old_text:
+              out.write_text(new_text, encoding="utf-8")
+              pathlib.Path("ingest/candidates/.changed").write_text("changed\n", encoding="utf-8")
+          else:
+              out.unlink(missing_ok=True)
 
       - name: Commit detected source changes
         shell: bash
         run: |
           set -euo pipefail
-          git config user.name "IEB Archive Bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           if [ ! -f ingest/candidates/.changed ]; then
             echo "No relevant Uprealband source change."
@@ -111,11 +112,9 @@ jobs:
 
           rm -f ingest/candidates/.changed
           rm -rf ingest/tmp
-          git add ingest/candidates/uprealband-candidates.json
-          if git diff --cached --quiet; then
-            echo "No source changes."
-            exit 0
-          fi
 
-          git commit -m "chore: sync Uprealband source watch"
+          git config user.name "IEB Archive Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ingest/candidates/uprealband-candidates.json
+          git commit -m "chore: detect Uprealband source changes"
           git push
