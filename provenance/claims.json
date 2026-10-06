@@ -158,5 +158,38 @@
     ],
     "confidence": "high",
     "notes": "This materially strengthens the historical bridge from the ReflexionPromosindo phase to the infoeventband.com phase."
+  },
+  {
+    "id": "claim-ieb-web-movement-started-end-2010",
+    "subject": "infoeventband",
+    "claim": "IEB's own May 2013 'Tentang INFOEVENTBAND.COM' page states that its web movement began at the end of 2010 as a commitment to contribute to music development through online distribution of information for bands.",
+    "claim_type": "documented_fact",
+    "source_ids": [
+      "source-ieb-about-2013-05-29"
+    ],
+    "confidence": "high",
+    "notes": "Contemporary first-party statement. It establishes the claimed beginning of the web movement, but does not by itself establish the exact domain used at that time."
+  },
+  {
+    "id": "claim-ieb-search-seo-strategy-2013",
+    "subject": "infoeventband",
+    "claim": "In May 2013, IEB explicitly described Google Search and SEO as part of its online strategy for making published information discoverable, including keywords related to gigs, band promotion, and event information.",
+    "claim_type": "documented_fact",
+    "source_ids": [
+      "source-ieb-about-2013-05-29"
+    ],
+    "confidence": "high",
+    "notes": "Direct first-party contemporary description of IEB's discovery strategy."
+  },
+  {
+    "id": "claim-ieb-2013-operating-model",
+    "subject": "infoeventband",
+    "claim": "By May 2013, IEB described itself as an indie website operating as music information and promotion media, with online distribution, offline promotion, event media-partner activity, Ajang Music Charts, radio collaboration, SMS promotion, Android distribution, and multiple promotion-service tiers.",
+    "claim_type": "documented_fact",
+    "source_ids": [
+      "source-ieb-about-2013-05-29"
+    ],
+    "confidence": "high",
+    "notes": "Direct first-party contemporary description. Individual historical scale claims such as hundreds of events are retained as claims made by the source, not independently verified totals."
   }
 ]
