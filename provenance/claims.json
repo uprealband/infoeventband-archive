@@ -191,5 +191,16 @@
     ],
     "confidence": "high",
     "notes": "Direct first-party contemporary description. Individual historical scale claims such as hundreds of events are retained as claims made by the source, not independently verified totals."
+  },
+  {
+    "id": "claim-ieb-slowdown-after-2013",
+    "subject": "infoeventband",
+    "claim": "According to a first-party oral recollection, IEB activity slowed during or after 2013 as the administrator's work returned to Jakarta and family responsibilities changed after the birth of his first child in February 2013; the domain eventually became inactive.",
+    "claim_type": "first_party_account",
+    "source_ids": [
+      "source-bany-oral-history-2026-10-06"
+    ],
+    "confidence": "medium",
+    "notes": "This records the project owner's recollection as historical context, not as a precisely dated contemporary fact. The exact date of domain expiration is not established."
   }
 ]
