@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "article-ieb-2011-12",
+    "title": "INFOEVENTBAND.com archive: December 2011",
+    "publisher": "INFOEVENTBAND.com",
+    "date": "2011-12",
+    "url": "https://www.infoeventband.com/2011/12/",
+    "source_ids": ["source-ieb-2011-12"]
+  },
+  {
+    "id": "article-gg-ieb-2013-11-03",
+    "title": "INFOEVENTBAND.com, Powered by ReflexionPromosindo.com",
+    "publisher": "INFOEVENTBAND.COM",
+    "date": "2013-11-03",
+    "url": "https://groups.google.com/g/bungabank/c/qpVcB9yYBGE",
+    "source_ids": ["source-gg-ieb-2013-11-03"]
+  },
+  {
+    "id": "article-gg-ieb-2013-11-27",
+    "title": "INFOEVENTBAND.com, Powered by ReflexionPromosindo.com",
+    "publisher": "INFOEVENTBAND.COM",
+    "date": "2013-11-27",
+    "url": "https://groups.google.com/g/bungabank/c/gS2qHqE_Q_Q",
+    "source_ids": ["source-gg-ieb-2013-11-27"]
+  }
+]
