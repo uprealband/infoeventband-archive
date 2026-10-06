@@ -191,5 +191,37 @@
       "source-gg-ieb-2013-11-03",
       "source-gg-ieb-2013-11-27"
     ]
+  },
+  {
+    "id": "event-festival-band-bazaar-2011",
+    "name": "Festival Band dan Bazaar Tahun 2011",
+    "date": "2011-01-04",
+    "location": {
+      "city": null,
+      "province": null,
+      "country": "Indonesia"
+    },
+    "event_type": "band festival / bazaar",
+    "archive_status": "Documented",
+    "notes": "A primary-source Blogger admin screenshot shows a published 4 January 2011 post carrying the INFO EVENT BAND label under ReflexionPromosindo.com.",
+    "source_ids": [
+      "source-reflexion-blog-2011-01-admin-view"
+    ]
+  },
+  {
+    "id": "event-jammin-session-mcdonalds-2011",
+    "name": "Info Event Akustik \"Jammin' Session @ MC Donalds\"",
+    "date": "2011-01-04",
+    "location": {
+      "city": null,
+      "province": null,
+      "country": "Indonesia"
+    },
+    "event_type": "acoustic music event",
+    "archive_status": "Documented",
+    "notes": "A primary-source Blogger admin screenshot shows a published 4 January 2011 post carrying the INFO EVENT BAND label under ReflexionPromosindo.com.",
+    "source_ids": [
+      "source-reflexion-blog-2011-01-admin-view"
+    ]
   }
 ]
