@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id":"event-jammin-on-the-street-2011",
+    "name":"Jammin On The Street",
+    "date":"2011-12-27",
+    "location":{"city":"Depok","province":"West Java","country":"Indonesia"},
+    "event_type":"music event",
+    "archive_status":"Documented",
+    "notes":"IEB published event documentation and a related visit by the Jammin On The Street team to the IEB office in December 2011.",
+    "source_ids":["source-ieb-2011-12"]
+  },
+  {
+    "id":"event-dmall-idol-2013",
+    "name":"Dmall Idol 2013",
+    "date":"2013-02-17",
+    "location":{"city":"Depok","province":"West Java","country":"Indonesia"},
+    "event_type":"talent competition",
+    "archive_status":"Documented",
+    "notes":"Contemporary event listing identifies Infoeventband.com as a media partner.",
+    "source_ids":["source-projectbandmanager-2013-04"]
+  },
+  {
+    "id":"event-online-competition-2013-part-2",
+    "name":"ONLINE COMPETITION INFOEVENTBAND.COM Part 2",
+    "date":"2013-12",
+    "location":{"city":null,"province":null,"country":"Indonesia"},
+    "event_type":"online music competition",
+    "archive_status":"Documented",
+    "notes":"IEB announced a free annual competition accepting one song per participant, followed by playlist publication and online voting. The source states the program was held in conjunction with IEB's second anniversary on 7 December 2013.",
+    "source_ids":["source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id":"event-festival-competitions-band-ciradio-2013",
+    "name":"Festival Competitions Band - Semarak HUT Ke-4 Ciradio 90.2 FM Cirebon",
+    "date":"2013-12-01",
+    "location":{"city":"Cirebon","province":"West Java","country":"Indonesia"},
+    "event_type":"band competition",
+    "archive_status":"Documented",
+    "notes":"Listed in IEB syndicated material with prizes including free recording, development funds, radio talk show, trophy and certificate.",
+    "source_ids":["source-gg-ieb-2013-11-27"]
+  }
+]
