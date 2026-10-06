@@ -223,5 +223,22 @@
     "source_ids": [
       "source-reflexion-blog-2011-01-admin-view"
     ]
+  },
+  {
+    "id": "event-honda-parade-musik-wtc-serpong-2011",
+    "name": "HONDA PARADE MUSIK - WTC Serpong",
+    "date": "2011-11-12",
+    "date_end": "2011-11-13",
+    "location": {
+      "city": "Tangerang Selatan",
+      "province": "Banten",
+      "country": "Indonesia"
+    },
+    "event_type": "band festival / music parade",
+    "archive_status": "Documented",
+    "notes": "Primary-source INFO EVENT BAND page from November 2011 documents the Serpong event. The associated poster states WTC Serpong, 12-13 November, FESTIVAL BAND, participant limit of 25 bands, one free-choice song plus one original song. The poster also identifies ReflexionPromosindo.com as 're informed by'.",
+    "source_ids": [
+      "source-reflexion-blog-honda-parade-2011-11"
+    ]
   }
 ]
