@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "id": "band-polyphonic",
+    "entity_type": "MusicGroup",
+    "name": "POLYPHONIC",
+    "aliases": [],
+    "identity": {
+      "city": "Bangkalan",
+      "province": null,
+      "country": "Indonesia",
+      "genre": ["Power Pop Punk"]
+    },
+    "history": {
+      "formed_year": 2013,
+      "active_from": "2013",
+      "active_until": null,
+      "band_status": "Unknown",
+      "historical_notes": "A November 2013 IEB syndicated post describes the band's formation in August 2013 and its first single."
+    },
+    "archive": {
+      "archive_status": "Documented",
+      "first_recorded": "2013-11-27",
+      "last_recorded": "2013-11-27",
+      "record_count": 1,
+      "tags": ["IEB", "band profile", "promotion"]
+    },
+    "source_ids": ["source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id": "band-audrey-band",
+    "entity_type": "MusicGroup",
+    "name": "AUDREY BAND",
+    "aliases": [],
+    "identity": {
+      "city": "Cikarang",
+      "province": null,
+      "country": "Indonesia",
+      "genre": []
+    },
+    "history": {
+      "formed_year": null,
+      "active_from": null,
+      "active_until": null,
+      "band_status": "Unknown",
+      "historical_notes": "November 2013 IEB syndicated post identifies the band as being from Cikarang and lists members."
+    },
+    "archive": {
+      "archive_status": "Documented",
+      "first_recorded": "2013-11-05",
+      "last_recorded": "2013-11-05",
+      "record_count": 1,
+      "tags": ["IEB", "band profile", "promotion"]
+    },
+    "source_ids": ["source-gg-ieb-2013-11-03"]
+  },
+  {
+    "id": "band-love-revelation",
+    "entity_type": "MusicGroup",
+    "name": "Love Revelation Band",
+    "aliases": [],
+    "identity": {
+      "city": "Medan",
+      "province": null,
+      "country": "Indonesia",
+      "genre": []
+    },
+    "history": {
+      "formed_year": null,
+      "active_from": null,
+      "active_until": null,
+      "band_status": "Unknown",
+      "historical_notes": "November 2013 IEB syndicated post documents promotion of the band's mini album and links to its then-current web profiles."
+    },
+    "archive": {
+      "archive_status": "Documented",
+      "first_recorded": "2013-11-05",
+      "last_recorded": "2013-11-05",
+      "record_count": 1,
+      "tags": ["IEB", "band promotion", "release promotion"]
+    },
+    "source_ids": ["source-gg-ieb-2013-11-03"]
+  }
+]
