@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "upstream": {
+    "repository": "uprealband/perjalanan-band-indie",
+    "main_sha": "cee75432fb272b3ad4f0edcf9b454dd8523069f3",
+    "blog_feed": "https://www.uprealband.com/feeds/posts/default?alt=json&max-results=50"
+  },
+  "candidates": [
+    {
+      "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/10/part-7-ketika-harus-merem.html",
+      "title": "PART 7 KETIKA HARUS MEREM (Jurnal Bany Uprealband)",
+      "published": "2026-10-03T04:03:59.775+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/10/part-6-halo-effect-tapi-jangan-berat.html",
+      "title": "PART 6 Halo Effect, Tapi Jangan Berat-berat (Jurnal Bany Uprealband)",
+      "published": "2026-10-03T03:54:24.078+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/10/part-5-adminnya-gue-kuratornya-gue.html",
+      "title": "PART 5  Adminnya Gue. Kuratornya Gue. (Jurnal Bany Uprealband)",
+      "published": "2026-10-03T03:50:43.424+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/10/part-4-dari-reflexionpromosindo-ke.html",
+      "title": "PART 4  Dari ReflexionPromosindo ke InfoEventBand.com (Jurnal Bany Uprealband)",
+      "published": "2026-10-03T03:27:45.027+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/10/part-3-uprealband-punya-manajemen.html",
+      "title": "PART 3  Uprealband Punya Manajemen Bayangan (Jurnal Bany Uprealband)",
+      "published": "2026-10-03T03:22:12.920+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/10/part-1-penutup-mata-kura-kura-ninja-dan.html",
+      "title": "PART 2  Dulu Uprealband Pernah Share info event, Kok Sepi? (Jurnal Bany Uprealband)",
+      "published": "2026-10-03T03:05:48.309+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/09/puncak-2011-liburan-nongkrong-dan.html",
+      "title": "Puncak 2011: Liburan, Nongkrong, dan Ternyata Ada Rapat Juga",
+      "published": "2026-09-22T20:25:51.517+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "github_archive_index",
+      "source_url": "https://github.com/uprealband/perjalanan-band-indie/blob/main/archive-index.json",
+      "title": "Uprealband archive-index.json",
+      "reason": "Indeks arsip GitHub Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    }
+  ]
+}
