@@ -105,14 +105,14 @@
   {
     "id": "claim-ieb-music-charts-part5-2013",
     "subject": "event-ajang-music-charts-part-5-2013",
-    "claim": "IEB documented Ajang Music Charts Part 5 as its own music-selection/chart program; contemporary IEB material separately identifies a Brebeg Online Radio chart, so the two programs should not be conflated. Voting for IEB Part 5 ended on 26 October 2013 and Habibi Sank's song 'Ibu' received the most votes.",
+    "claim": "IEB documented Ajang Music Charts Part 5 as its own music-selection/chart program; contemporary IEB material separately identifies a Brebeg Online Radio chart, so the two programs should not be conflated. IEB records Habibi Sank's song 'Ibu' as receiving the most votes in Part 5.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-gg-ieb-2013-11-03",
       "source-gg-ieb-2013-11-27"
     ],
     "confidence": "high",
-    "notes": "Contemporary IEB archive and first-party retrospective support the distinction. Brebeg had its own chart within the wider radio activity."
+    "notes": "Keep the exact voting-end date unresolved until a direct contemporary Part 5 post is found."
   },
   {
     "id": "claim-brebeg-had-separate-chart",
