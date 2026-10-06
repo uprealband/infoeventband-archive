@@ -1,42 +1,11 @@
 [
-  {
-    "id":"event-jammin-on-the-street-2011",
-    "name":"Jammin On The Street",
-    "date":"2011-12-27",
-    "location":{"city":"Depok","province":"West Java","country":"Indonesia"},
-    "event_type":"music event",
-    "archive_status":"Documented",
-    "notes":"IEB published event documentation and a related visit by the Jammin On The Street team to the IEB office in December 2011.",
-    "source_ids":["source-ieb-2011-12"]
-  },
-  {
-    "id":"event-dmall-idol-2013",
-    "name":"Dmall Idol 2013",
-    "date":"2013-02-17",
-    "location":{"city":"Depok","province":"West Java","country":"Indonesia"},
-    "event_type":"talent competition",
-    "archive_status":"Documented",
-    "notes":"Contemporary event listing identifies Infoeventband.com as a media partner.",
-    "source_ids":["source-projectbandmanager-2013-04"]
-  },
-  {
-    "id":"event-online-competition-2013-part-2",
-    "name":"ONLINE COMPETITION INFOEVENTBAND.COM Part 2",
-    "date":"2013-12",
-    "location":{"city":null,"province":null,"country":"Indonesia"},
-    "event_type":"online music competition",
-    "archive_status":"Documented",
-    "notes":"IEB announced a free annual competition accepting one song per participant, followed by playlist publication and online voting. The source states the program was held in conjunction with IEB's second anniversary on 7 December 2013.",
-    "source_ids":["source-gg-ieb-2013-11-27"]
-  },
-  {
-    "id":"event-festival-competitions-band-ciradio-2013",
-    "name":"Festival Competitions Band - Semarak HUT Ke-4 Ciradio 90.2 FM Cirebon",
-    "date":"2013-12-01",
-    "location":{"city":"Cirebon","province":"West Java","country":"Indonesia"},
-    "event_type":"band competition",
-    "archive_status":"Documented",
-    "notes":"Listed in IEB syndicated material with prizes including free recording, development funds, radio talk show, trophy and certificate.",
-    "source_ids":["source-gg-ieb-2013-11-27"]
-  }
+  {"id":"event-jammin-on-the-street-2011","name":"Jammin On The Street","date":"2011-12-27","location":{"city":"Depok","province":"West Java","country":"Indonesia"},"event_type":"music event","archive_status":"Documented","notes":"IEB published event documentation and a related visit by the Jammin On The Street team to the IEB office in December 2011.","source_ids":["source-ieb-2011-12"]},
+  {"id":"event-dmall-idol-2013","name":"Dmall Idol 2013","date":"2013-02-17","location":{"city":"Depok","province":"West Java","country":"Indonesia"},"event_type":"talent competition","archive_status":"Documented","notes":"Contemporary event listing identifies Infoeventband.com as a media partner.","source_ids":["source-projectbandmanager-2013-04"]},
+  {"id":"event-online-competition-2013-part-2","name":"ONLINE COMPETITION INFOEVENTBAND.COM Part 2","date":"2013-12","location":{"city":null,"province":null,"country":"Indonesia"},"event_type":"online music competition","archive_status":"Documented","notes":"IEB announced a free annual competition accepting one song per participant, followed by playlist publication and online voting. The source states the program was held in conjunction with IEB's second anniversary on 7 December 2013.","source_ids":["source-gg-ieb-2013-11-27"]},
+  {"id":"event-festival-competitions-band-ciradio-2013","name":"Festival Competitions Band - Semarak HUT Ke-4 Ciradio 90.2 FM Cirebon","date":"2013-12-01","location":{"city":"Cirebon","province":"West Java","country":"Indonesia"},"event_type":"band competition","archive_status":"Documented","notes":"Listed in IEB syndicated material with prizes including free recording, development funds, radio talk show, trophy and certificate.","source_ids":["source-gg-ieb-2013-11-27"]},
+  {"id":"event-festival-musik-indie-banten-selatan-2011","name":"Festival Musik - Indie Banten Selatan","date":"2011-12-31","location":{"city":null,"province":"Banten","country":"Indonesia"},"event_type":"music festival","archive_status":"Documented","notes":"IEB December 2011 archive lists the festival as an upcoming event.","source_ids":["source-ieb-2011-12"]},
+  {"id":"event-new-year-cibubur-square-2012","name":"NEW YEAR 2012 LIVE CIBUBUR SQUARE","date":"2011-12-30","location":{"city":"Cibubur","province":"West Java","country":"Indonesia"},"event_type":"New Year music event","archive_status":"Documented","notes":"IEB December 2011 archive lists the event for New Year 2012.","source_ids":["source-ieb-2011-12"]},
+  {"id":"event-new-year-fx-senayan-2012","name":"Event malam tahun baruan 2012 di FX SENAYAN","date":"2011-12-30","location":{"city":"Jakarta","province":"DKI Jakarta","country":"Indonesia"},"event_type":"New Year music event","archive_status":"Documented","notes":"IEB December 2011 archive lists the New Year event at FX Senayan.","source_ids":["source-ieb-2011-12"]},
+  {"id":"event-new-year-teraskota-bsd-2012","name":"Event Seru !! malam tahun baruan di TerasKota BSD City","date":"2011-12-30","location":{"city":"Tangerang Selatan","province":"Banten","country":"Indonesia"},"event_type":"New Year music event","archive_status":"Documented","notes":"IEB December 2011 archive lists the New Year event at TerasKota BSD City.","source_ids":["source-ieb-2011-12"]},
+  {"id":"event-parade-band-akhir-tahun-2011","name":"Parade Band Akhir Tahun 2011","date":"2011-12-27","location":{"city":null,"province":null,"country":"Indonesia"},"event_type":"band event","archive_status":"Documented","notes":"IEB December 2011 archive lists the event.","source_ids":["source-ieb-2011-12"]}
 ]
