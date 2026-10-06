@@ -4,80 +4,149 @@
     "entity_type": "MusicGroup",
     "name": "POLYPHONIC",
     "aliases": [],
-    "identity": {
-      "city": "Bangkalan",
-      "province": null,
-      "country": "Indonesia",
-      "genre": ["Power Pop Punk"]
-    },
-    "history": {
-      "formed_year": 2013,
-      "active_from": "2013",
-      "active_until": null,
-      "band_status": "Unknown",
-      "historical_notes": "A November 2013 IEB syndicated post describes the band's formation in August 2013 and its first single."
-    },
-    "archive": {
-      "archive_status": "Documented",
-      "first_recorded": "2013-11-27",
-      "last_recorded": "2013-11-27",
-      "record_count": 1,
-      "tags": ["IEB", "band profile", "promotion"]
-    },
-    "source_ids": ["source-gg-ieb-2013-11-27"]
+    "identity": {"city":"Bangkalan","province":null,"country":"Indonesia","genre":["Power Pop Punk"]},
+    "history": {"formed_year":2013,"active_from":"2013","active_until":null,"band_status":"Unknown","historical_notes":"IEB syndicated post says the band formed in August 2013 and had released its first single, Kekasih Barumu."},
+    "archive": {"archive_status":"Documented","first_recorded":"2013-11-27","last_recorded":"2013-11-27","record_count":1,"tags":["IEB","band profile","promotion"]},
+    "source_ids":["source-gg-ieb-2013-11-27"]
   },
   {
     "id": "band-audrey-band",
     "entity_type": "MusicGroup",
     "name": "AUDREY BAND",
     "aliases": [],
-    "identity": {
-      "city": "Cikarang",
-      "province": null,
-      "country": "Indonesia",
-      "genre": []
-    },
-    "history": {
-      "formed_year": null,
-      "active_from": null,
-      "active_until": null,
-      "band_status": "Unknown",
-      "historical_notes": "November 2013 IEB syndicated post identifies the band as being from Cikarang and lists members."
-    },
-    "archive": {
-      "archive_status": "Documented",
-      "first_recorded": "2013-11-05",
-      "last_recorded": "2013-11-05",
-      "record_count": 1,
-      "tags": ["IEB", "band profile", "promotion"]
-    },
-    "source_ids": ["source-gg-ieb-2013-11-03"]
+    "identity": {"city":"Cikarang","province":null,"country":"Indonesia","genre":[]},
+    "history": {"formed_year":null,"active_from":null,"active_until":null,"band_status":"Unknown","historical_notes":"IEB syndicated post identifies the band as from Cikarang and names its members."},
+    "archive": {"archive_status":"Documented","first_recorded":"2013-11-05","last_recorded":"2013-11-05","record_count":1,"tags":["IEB","band profile","promotion"]},
+    "source_ids":["source-gg-ieb-2013-11-03"]
   },
   {
     "id": "band-love-revelation",
-    "entity_type": "MusicGroup",
-    "name": "Love Revelation Band",
+    "entity_type":"MusicGroup",
+    "name":"Love Revelation Band",
     "aliases": [],
-    "identity": {
-      "city": "Medan",
-      "province": null,
-      "country": "Indonesia",
-      "genre": []
-    },
-    "history": {
-      "formed_year": null,
-      "active_from": null,
-      "active_until": null,
-      "band_status": "Unknown",
-      "historical_notes": "November 2013 IEB syndicated post documents promotion of the band's mini album and links to its then-current web profiles."
-    },
-    "archive": {
-      "archive_status": "Documented",
-      "first_recorded": "2013-11-05",
-      "last_recorded": "2013-11-05",
-      "record_count": 1,
-      "tags": ["IEB", "band promotion", "release promotion"]
-    },
-    "source_ids": ["source-gg-ieb-2013-11-03"]
+    "identity":{"city":"Medan","province":null,"country":"Indonesia","genre":[]},
+    "history":{"formed_year":null,"active_from":null,"active_until":null,"band_status":"Unknown","historical_notes":"IEB syndicated post documents promotion of the band's mini album and links to its then-current profiles."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-05","last_recorded":"2013-11-05","record_count":1,"tags":["IEB","band promotion","release promotion"]},
+    "source_ids":["source-gg-ieb-2013-11-03"]
+  },
+  {
+    "id":"band-bcycle",
+    "entity_type":"MusicGroup",
+    "name":"B'cycle",
+    "aliases":[],
+    "identity":{"city":"Jakarta","province":null,"country":"Indonesia","genre":[]},
+    "history":{"formed_year":2011,"active_from":"2011","active_until":null,"band_status":"Unknown","historical_notes":"IEB syndicated post says the band formed on 1 December 2011 and lists five members."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-27","last_recorded":"2013-11-27","record_count":1,"tags":["IEB","band profile","online competition"]},
+    "source_ids":["source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id":"band-coaster",
+    "entity_type":"MusicGroup",
+    "name":"COASTER",
+    "aliases":["Roller Coaster","Z-Coaster","Roller And Coaster","Cancel","Domestik Rock","Stars Inc","Straight Ranger"],
+    "identity":{"city":"Depok","province":"West Java","country":"Indonesia","genre":["Teenagers Punk Rock"]},
+    "history":{"formed_year":2006,"active_from":"2006","active_until":null,"band_status":"Unknown","historical_notes":"IEB profile says the group was formed in late December 2006 and documents multiple earlier names before becoming Coaster."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-27","last_recorded":"2013-11-29","record_count":2,"tags":["IEB","band profile","Depok","punk rock"]},
+    "source_ids":["source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id":"band-arazi",
+    "entity_type":"MusicGroup",
+    "name":"ARAZI",
+    "aliases":[],
+    "identity":{"city":"Bandung","province":"West Java","country":"Indonesia","genre":["Pop Kreatif"]},
+    "history":{"formed_year":2011,"active_from":"2011","active_until":null,"band_status":"Unknown","historical_notes":"IEB post states the band was founded in Bandung on 27 February 2011 and describes its music as pop kreatif."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-03","last_recorded":"2013-11-11","record_count":2,"tags":["IEB","band profile","feature song"]},
+    "source_ids":["source-gg-ieb-2013-11-03","source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id":"band-u-rex",
+    "entity_type":"MusicGroup",
+    "name":"U - ReX Band",
+    "aliases":["U-Rex"],
+    "identity":{"city":"Tangerang","province":"Banten","country":"Indonesia","genre":[]},
+    "history":{"formed_year":null,"active_from":null,"active_until":null,"band_status":"Unknown","historical_notes":"IEB syndicated post identifies the band as from Tangerang and lists its five members."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-11","last_recorded":"2013-11-11","record_count":1,"tags":["IEB","band profile"]},
+    "source_ids":["source-gg-ieb-2013-11-03"]
+  },
+  {
+    "id":"band-watermelon-rock",
+    "entity_type":"MusicGroup",
+    "name":"Watermelon Rock",
+    "aliases":["Watermelon Band"],
+    "identity":{"city":null,"province":null,"country":"Indonesia","genre":["Rock"]},
+    "history":{"formed_year":null,"active_from":null,"active_until":null,"band_status":"Unknown","historical_notes":"IEB posts identify Watermelon as a participant in the Ajang Music Charts program and document its performance at Oxygen Musik Festival 2013."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-05","last_recorded":"2013-11-10","record_count":2,"tags":["IEB","Music Charts","event documentation"]},
+    "source_ids":["source-gg-ieb-2013-11-03"]
+  },
+  {
+    "id":"band-eksentrik",
+    "entity_type":"MusicGroup",
+    "name":"Eksentrik",
+    "aliases":[],
+    "identity":{"city":"Tangerang","province":"Banten","country":"Indonesia","genre":[]},
+    "history":{"formed_year":null,"active_from":null,"active_until":null,"band_status":"Unknown","historical_notes":"IEB syndicated post identifies the band as from Tangerang and includes release information."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-29","last_recorded":"2013-11-29","record_count":1,"tags":["IEB","band profile","online competition"]},
+    "source_ids":["source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id":"band-harvest-moon",
+    "entity_type":"MusicGroup",
+    "name":"HARVEST MOON",
+    "aliases":[],
+    "identity":{"city":null,"province":null,"country":"Indonesia","genre":["Punk Rock Melodic"]},
+    "history":{"formed_year":2012,"active_from":"2012","active_until":null,"band_status":"Unknown","historical_notes":"IEB syndicated post states the band formed on 23 June 2012 and lists members and a punk rock melodic description."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-29","last_recorded":"2013-11-29","record_count":1,"tags":["IEB","band profile","online competition"]},
+    "source_ids":["source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id":"band-golden-light",
+    "entity_type":"MusicGroup",
+    "name":"Golden Light",
+    "aliases":["Ninety Nine"],
+    "identity":{"city":"Purwakarta","province":"West Java","country":"Indonesia","genre":[]},
+    "history":{"formed_year":2011,"active_from":"2011","active_until":null,"band_status":"Unknown","historical_notes":"IEB syndicated post states the band was formed on 1 July 2011 and had previously used the name Ninety Nine."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-29","last_recorded":"2013-11-29","record_count":1,"tags":["IEB","band profile","online competition"]},
+    "source_ids":["source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id":"band-frankenstein-street",
+    "entity_type":"MusicGroup",
+    "name":"Frankenstein Street",
+    "aliases":[],
+    "identity":{"city":"Cirebon","province":"West Java","country":"Indonesia","genre":[]},
+    "history":{"formed_year":null,"active_from":null,"active_until":null,"band_status":"Unknown","historical_notes":"IEB syndicated material lists Frankenstein Street as originating from Cirebon in the 2013 online competition context."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-29","last_recorded":"2013-11-29","record_count":1,"tags":["IEB","online competition"]},
+    "source_ids":["source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id":"band-paper-clip",
+    "entity_type":"MusicGroup",
+    "name":"Paper Clip",
+    "aliases":[],
+    "identity":{"city":null,"province":null,"country":"Indonesia","genre":[]},
+    "history":{"formed_year":null,"active_from":null,"active_until":null,"band_status":"Unknown","historical_notes":"IEB syndicated material lists Paper Clip among the 2013 online competition entries."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-29","last_recorded":"2013-11-29","record_count":1,"tags":["IEB","online competition"]},
+    "source_ids":["source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id":"band-auror",
+    "entity_type":"MusicGroup",
+    "name":"AUROR",
+    "aliases":[],
+    "identity":{"city":"Bogor","province":"West Java","country":"Indonesia","genre":[]},
+    "history":{"formed_year":null,"active_from":null,"active_until":null,"band_status":"Unknown","historical_notes":"IEB syndicated material identifies AUROR as a band from Bogor in the 2013 online competition context."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-29","last_recorded":"2013-11-29","record_count":1,"tags":["IEB","online competition"]},
+    "source_ids":["source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id":"band-jenggo",
+    "entity_type":"Person",
+    "name":"Jenggo",
+    "aliases":[],
+    "identity":{"city":null,"province":null,"country":"Indonesia","genre":["Country Blues"]},
+    "history":{"formed_year":null,"active_from":null,"active_until":null,"band_status":"Not a band","historical_notes":"IEB syndicated material identifies Jenggo as a solo career act in the country blues genre."},
+    "archive":{"archive_status":"Documented","first_recorded":"2013-11-29","last_recorded":"2013-11-29","record_count":1,"tags":["IEB","solo artist","online competition"]},
+    "source_ids":["source-gg-ieb-2013-11-27"]
   }
 ]
