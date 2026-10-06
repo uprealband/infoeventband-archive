@@ -124,5 +124,16 @@
     ],
     "confidence": "medium",
     "notes": "This distinction is important for the archive model: Brebeg Online Radio is a related activity, not an alternate name for Ajang Music Charts."
+  },
+  {
+    "id": "claim-brebeg-relationship-status",
+    "subject": "brebeg-online-radio",
+    "claim": "Brebeg Online Radio was a separate activity in the same wider network of projects handled by the IEB administrator, alongside Music Charts and SMS event-information services; current evidence does not establish whether Brebeg was formally owned by IEB or operated as a separate organization.",
+    "claim_type": "first_party_account",
+    "source_ids": [
+      "source-upreal-journal-part-5"
+    ],
+    "confidence": "medium",
+    "notes": "Do not model Brebeg as a subprogram of Music Charts or assert formal ownership without additional contemporary evidence."
   }
 ]
