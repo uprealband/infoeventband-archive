@@ -1,11 +1,5 @@
 [
-  {
-    "id":"rel-ieb-reflexionpromosindo",
-    "from":"infoeventband",
-    "relation":"associated_with",
-    "to":"reflexionpromosindo",
-    "source_ids":["source-gg-ieb-2013-11-03","source-gg-ieb-2013-11-27"]
-  },
+  {"id":"rel-ieb-reflexionpromosindo","from":"infoeventband","relation":"associated_with","to":"reflexionpromosindo","source_ids":["source-gg-ieb-2013-11-03","source-gg-ieb-2013-11-27"]},
   {"id":"rel-ieb-polyphonic","from":"infoeventband","relation":"promoted","to":"band-polyphonic","source_ids":["source-gg-ieb-2013-11-27"]},
   {"id":"rel-ieb-audrey","from":"infoeventband","relation":"featured","to":"band-audrey-band","source_ids":["source-gg-ieb-2013-11-03"]},
   {"id":"rel-ieb-love-revelation","from":"infoeventband","relation":"promoted","to":"band-love-revelation","source_ids":["source-gg-ieb-2013-11-03"]},
@@ -24,5 +18,13 @@
   {"id":"rel-ieb-jammin-2011","from":"infoeventband","relation":"documented","to":"event-jammin-on-the-street-2011","source_ids":["source-ieb-2011-12"]},
   {"id":"rel-ieb-dmall-idol","from":"infoeventband","relation":"associated_with","to":"event-dmall-idol-2013","source_ids":["source-projectbandmanager-2013-04"]},
   {"id":"rel-ieb-online-comp","from":"infoeventband","relation":"organized","to":"event-online-competition-2013-part-2","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-ciradio","from":"infoeventband","relation":"documented","to":"event-festival-competitions-band-ciradio-2013","source_ids":["source-gg-ieb-2013-11-27"]}
+  {"id":"rel-ieb-ciradio","from":"infoeventband","relation":"documented","to":"event-festival-competitions-band-ciradio-2013","source_ids":["source-gg-ieb-2013-11-27"]},
+  {"id":"rel-ieb-lotuz","from":"infoeventband","relation":"featured","to":"band-lotuz","source_ids":["source-ieb-2011-12"]},
+  {"id":"rel-ieb-aftur","from":"infoeventband","relation":"featured","to":"band-aftur","source_ids":["source-ieb-2011-12"]},
+  {"id":"rel-ieb-arthur","from":"infoeventband","relation":"featured","to":"band-the-arthur-band","source_ids":["source-ieb-2011-12"]},
+  {"id":"rel-ieb-festival-banten","from":"infoeventband","relation":"documented","to":"event-festival-musik-indie-banten-selatan-2011","source_ids":["source-ieb-2011-12"]},
+  {"id":"rel-ieb-cibubur","from":"infoeventband","relation":"documented","to":"event-new-year-cibubur-square-2012","source_ids":["source-ieb-2011-12"]},
+  {"id":"rel-ieb-fx","from":"infoeventband","relation":"documented","to":"event-new-year-fx-senayan-2012","source_ids":["source-ieb-2011-12"]},
+  {"id":"rel-ieb-teraskota","from":"infoeventband","relation":"documented","to":"event-new-year-teraskota-bsd-2012","source_ids":["source-ieb-2011-12"]},
+  {"id":"rel-ieb-parade-2011","from":"infoeventband","relation":"documented","to":"event-parade-band-akhir-tahun-2011","source_ids":["source-ieb-2011-12"]}
 ]
