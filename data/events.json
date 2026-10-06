@@ -174,5 +174,22 @@
     "source_ids": [
       "source-gg-ieb-2013-11-27"
     ]
+  },
+  {
+    "id": "event-ajang-music-charts-part-5-2013",
+    "name": "Ajang Music Charts INFOEVENTBAND.COM Part 5",
+    "date": "2013-10-26",
+    "location": {
+      "city": null,
+      "province": null,
+      "country": "Indonesia"
+    },
+    "event_type": "online music chart / voting",
+    "archive_status": "Documented",
+    "notes": "IEB archive states voting ended on 26 October 2013 and Habibi Sank with the song Ibu received the most votes. A November 2013 post also calls Habibi Sank the winner and mentions promotional prizes and a special plaque.",
+    "source_ids": [
+      "source-gg-ieb-2013-11-03",
+      "source-gg-ieb-2013-11-27"
+    ]
   }
 ]
