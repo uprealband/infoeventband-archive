@@ -298,5 +298,14 @@
     "source_ids": [
       "source-reflexion-blog-2011-01-admin-view"
     ]
+  },
+  {
+    "id": "rel-ieb-honda-parade-serpong-2011",
+    "from": "infoeventband",
+    "relation": "documented",
+    "to": "event-honda-parade-musik-wtc-serpong-2011",
+    "source_ids": [
+      "source-reflexion-blog-honda-parade-2011-11"
+    ]
   }
 ]
