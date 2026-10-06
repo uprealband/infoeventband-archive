@@ -202,5 +202,74 @@
     ],
     "confidence": "medium",
     "notes": "This records the project owner's recollection as historical context, not as a precisely dated contemporary fact. The exact date of domain expiration is not established."
+  },
+  {
+    "id": "claim-ieb-2013-operational-network",
+    "subject": "infoeventband",
+    "claim": "A February 2013 IEB operational proposal describes a distribution model in which published website content was automatically propagated through affiliated social-network accounts and pages, while Google Search/SEO was used as a separate discovery channel.",
+    "claim_type": "documented_fact",
+    "source_ids": [
+      "source-ieb-proposal-2013-02"
+    ],
+    "confidence": "high",
+    "notes": "The proposal describes the network as affiliated accounts/pages and explains the aggregate friendlist reach. It should not be interpreted as proof that all listed accounts were owned by IEB."
+  },
+  {
+    "id": "claim-ieb-2013-offline-media-model",
+    "subject": "infoeventband",
+    "claim": "The February 2013 proposal states that IEB combined online activity with offline promotion, event coverage, interviews, event-organizer cooperation, media-partner activity, Ajang Music Charts, live-performance opportunities, CD compilation distribution, and recurring collaboration with online radio.",
+    "claim_type": "documented_fact",
+    "source_ids": [
+      "source-ieb-proposal-2013-02"
+    ],
+    "confidence": "high",
+    "notes": "The proposal's scale statement about media partnership at hundreds of events is retained as a claim made by IEB, not independently verified."
+  },
+  {
+    "id": "claim-ieb-blast-2013",
+    "subject": "infoeventband",
+    "claim": "In February 2013, IEB described an SMS service called IEB BLAST using a database of more than 400 mobile numbers belonging to bands, media, and event organizers.",
+    "claim_type": "documented_fact",
+    "source_ids": [
+      "source-ieb-proposal-2013-02"
+    ],
+    "confidence": "high",
+    "notes": "The 400+ figure is the proposal's stated database size at the time."
+  },
+  {
+    "id": "claim-ieb-android-2013",
+    "subject": "infoeventband",
+    "claim": "By February 2013, IEB stated that it had made its website suitable for mobile devices and had created an Android application; the proposal includes screenshots showing the mobile website and an IEB Android feed interface.",
+    "claim_type": "documented_fact",
+    "source_ids": [
+      "source-ieb-proposal-2013-02",
+      "source-ieb-android-apk-v4-2013"
+    ],
+    "confidence": "high",
+    "notes": "The proposal provides contemporary visual evidence; the archived APK provides a separate digital artifact."
+  },
+  {
+    "id": "claim-ieb-google-play-android-app",
+    "subject": "infoeventband",
+    "claim": "The INFO EVENT BAND Android application was publicly distributed through Google Play under package ID com.info.event.band.",
+    "claim_type": "documented_fact",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27",
+      "source-reverbnation-favian-ieb",
+      "source-ieb-android-apk-v4-2013"
+    ],
+    "confidence": "high",
+    "notes": "Contemporary IEB material directs Android users to the app on Google Play, while the promotional source identifies the same package ID as the archived APK. The current availability of the historical Play listing is not asserted."
+  },
+  {
+    "id": "claim-ieb-proposal-media-self-definition",
+    "subject": "infoeventband",
+    "claim": "In February 2013, IEB described itself as an indie website operating as music information and promotion media focused on bands and events, with the stated web movement beginning at the end of 2010.",
+    "claim_type": "documented_fact",
+    "source_ids": [
+      "source-ieb-proposal-2013-02"
+    ],
+    "confidence": "high",
+    "notes": "Contemporary first-party self-description."
   }
 ]
