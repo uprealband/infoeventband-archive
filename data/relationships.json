@@ -280,5 +280,23 @@
       "source-gg-ieb-2013-11-03",
       "source-gg-ieb-2013-11-27"
     ]
+  },
+  {
+    "id": "rel-ieb-festival-band-bazaar-2011",
+    "from": "infoeventband",
+    "relation": "documented",
+    "to": "event-festival-band-bazaar-2011",
+    "source_ids": [
+      "source-reflexion-blog-2011-01-admin-view"
+    ]
+  },
+  {
+    "id": "rel-ieb-jammin-session-2011",
+    "from": "infoeventband",
+    "relation": "documented",
+    "to": "event-jammin-session-mcdonalds-2011",
+    "source_ids": [
+      "source-reflexion-blog-2011-01-admin-view"
+    ]
   }
 ]
