@@ -1,10 +1,101 @@
 [
-  {"id":"source-ieb-2011-12","tier":1,"type":"IEB archive page","title":"INFOEVENTBAND.com archive: December 2011","url":"https://www.infoeventband.com/2011/12/","published":"2011-12","accessed":"2026-10-06","author":null,"notes":"Contemporary IEB archive page listing event, festival, band and music-related posts from December 2011."},
-  {"id":"source-gg-ieb-2013-11-03","tier":2,"type":"Google Groups archive","title":"INFOEVENTBAND.com, Powered by ReflexionPromosindo.com","url":"https://groups.google.com/g/bungabank/c/qpVcB9yYBGE","published":"2013-11-03","accessed":"2026-10-06","author":"INFOEVENTBAND.COM","notes":"Contemporary syndicated posts documenting IEB promotion, Music Charts, band features, event information, and submission channels."},
-  {"id":"source-gg-ieb-2013-11-27","tier":2,"type":"Google Groups archive","title":"INFOEVENTBAND.com, Powered by ReflexionPromosindo.com","url":"https://groups.google.com/g/bungabank/c/gS2qHqE_Q_Q","published":"2013-11-27","accessed":"2026-10-06","author":"INFOEVENTBAND.COM","notes":"Contemporary archive containing Music Charts, online competition, event support, contributor activity, band submissions, and IEB service descriptions. It also retrospectively references a prior-year online competition and a 2012 contributor trip to Ujung Genteng."},
-  {"id":"source-soundcloud-ieb-2013","tier":2,"type":"SoundCloud archive","title":"Rock For Society - berdirilah teman-INFOEVENTBAND.com","url":"https://soundcloud.com/infoeventband/infoeventband-com-rock-for","published":"2013-05-10","accessed":"2026-10-06","author":"InfoEventBand.com","notes":"Description states the compilation came from songs selected from hundreds of indie bands in the Ajang Music Charts INFOEVENTBAND.COM program."},
-  {"id":"source-projectbandmanager-2013-04","tier":2,"type":"Contemporary third-party publication","title":"Project Band Management: April 2013","url":"https://projectbandmanager.blogspot.com/2013/04/","published":"2013-04","accessed":"2026-10-06","author":null,"notes":"Contemporary post describing IEB supporting an event in Depok, documenting the event, and distributing IEB 2013 calendars."},
-  {"id":"source-upreal-journal-part-4","tier":3,"type":"First-party historical account","title":"PART 4 Dari ReflexionPromosindo ke InfoEventBand.com","url":"https://www.uprealband.com/2026/10/part-4-dari-reflexionpromosindo-ke.html","published":"2026-10-03","accessed":"2026-10-06","author":"Bany Uprealband","notes":"First-person retrospective describing the transition from Reflexion Management and ReflexionPromosindo.com to InfoEventBand.com and the author's role as its administrator."},
-  {"id":"source-upreal-journal-part-7","tier":3,"type":"First-party historical account","title":"PART 7 KETIKA HARUS MEREM","url":"https://www.uprealband.com/2026/10/part-7-ketika-harus-merem.html","published":"2026-10-03","accessed":"2026-10-06","author":"Bany Uprealband","notes":"First-person account stating that on 29 November 2013 InfoEventBand.com was media support for a singing competition and the author attended as its representative/judge."},
-  {"id":"source-reverbnation-favian-ieb","tier":2,"type":"Contemporary third-party publication","title":"FAVIAN BAND - Aku Bukan Pilihanmu by Ajang Music Charts INFOEVENTBAND.com","url":"https://www.reverbnation.com/ajangmusicchartsinfoeventbandcom/song/15122182-favian-band-aku-bukan-pilihanmu","published":null,"accessed":"2026-10-06","author":"Ajang Music Charts INFOEVENTBAND.com","notes":"Contemporary promotional page describing IEB as a media promotion service and stating that event and band information sharing began at the end of 2010 under another domain before infoeventband.com was adopted on 7 December 2011."}
+  {
+    "id": "source-ieb-2011-12",
+    "tier": 1,
+    "type": "IEB archive page",
+    "title": "INFOEVENTBAND.com archive: December 2011",
+    "url": "https://www.infoeventband.com/2011/12/",
+    "published": "2011-12",
+    "accessed": "2026-10-06",
+    "author": null,
+    "notes": "Contemporary IEB archive page listing event, festival, band and music-related posts from December 2011."
+  },
+  {
+    "id": "source-gg-ieb-2013-11-03",
+    "tier": 2,
+    "type": "Google Groups archive",
+    "title": "INFOEVENTBAND.com, Powered by ReflexionPromosindo.com",
+    "url": "https://groups.google.com/g/bungabank/c/qpVcB9yYBGE",
+    "published": "2013-11-03",
+    "accessed": "2026-10-06",
+    "author": "INFOEVENTBAND.COM",
+    "notes": "Contemporary syndicated posts documenting IEB promotion, Music Charts, band features, event information, and submission channels."
+  },
+  {
+    "id": "source-gg-ieb-2013-11-27",
+    "tier": 2,
+    "type": "Google Groups archive",
+    "title": "INFOEVENTBAND.com, Powered by ReflexionPromosindo.com",
+    "url": "https://groups.google.com/g/bungabank/c/gS2qHqE_Q_Q",
+    "published": "2013-11-27",
+    "accessed": "2026-10-06",
+    "author": "INFOEVENTBAND.COM",
+    "notes": "Contemporary archive containing Music Charts, online competition, event support, contributor activity, band submissions, and IEB service descriptions. It also retrospectively references a prior-year online competition and a 2012 contributor trip to Ujung Genteng."
+  },
+  {
+    "id": "source-soundcloud-ieb-2013",
+    "tier": 2,
+    "type": "SoundCloud archive",
+    "title": "Rock For Society - berdirilah teman-INFOEVENTBAND.com",
+    "url": "https://soundcloud.com/infoeventband/infoeventband-com-rock-for",
+    "published": "2013-05-10",
+    "accessed": "2026-10-06",
+    "author": "InfoEventBand.com",
+    "notes": "Description states the compilation came from songs selected from hundreds of indie bands in the Ajang Music Charts INFOEVENTBAND.COM program."
+  },
+  {
+    "id": "source-projectbandmanager-2013-04",
+    "tier": 2,
+    "type": "Contemporary third-party publication",
+    "title": "Project Band Management: April 2013",
+    "url": "https://projectbandmanager.blogspot.com/2013/04/",
+    "published": "2013-04",
+    "accessed": "2026-10-06",
+    "author": null,
+    "notes": "Contemporary post describing IEB supporting an event in Depok, documenting the event, and distributing IEB 2013 calendars."
+  },
+  {
+    "id": "source-upreal-journal-part-4",
+    "tier": 3,
+    "type": "First-party historical account",
+    "title": "PART 4 Dari ReflexionPromosindo ke InfoEventBand.com",
+    "url": "https://www.uprealband.com/2026/10/part-4-dari-reflexionpromosindo-ke.html",
+    "published": "2026-10-03",
+    "accessed": "2026-10-06",
+    "author": "Bany Uprealband",
+    "notes": "First-person retrospective describing the transition from Reflexion Management and ReflexionPromosindo.com to InfoEventBand.com and the author's role as its administrator."
+  },
+  {
+    "id": "source-upreal-journal-part-7",
+    "tier": 3,
+    "type": "First-party historical account",
+    "title": "PART 7 KETIKA HARUS MEREM",
+    "url": "https://www.uprealband.com/2026/10/part-7-ketika-harus-merem.html",
+    "published": "2026-10-03",
+    "accessed": "2026-10-06",
+    "author": "Bany Uprealband",
+    "notes": "First-person account stating that on 29 November 2013 InfoEventBand.com was media support for a singing competition and the author attended as its representative/judge."
+  },
+  {
+    "id": "source-reverbnation-favian-ieb",
+    "tier": 2,
+    "type": "Contemporary third-party publication",
+    "title": "FAVIAN BAND - Aku Bukan Pilihanmu by Ajang Music Charts INFOEVENTBAND.com",
+    "url": "https://www.reverbnation.com/ajangmusicchartsinfoeventbandcom/song/15122182-favian-band-aku-bukan-pilihanmu",
+    "published": null,
+    "accessed": "2026-10-06",
+    "author": "Ajang Music Charts INFOEVENTBAND.com",
+    "notes": "Contemporary promotional page describing IEB as a media promotion service and stating that event and band information sharing began at the end of 2010 under another domain before infoeventband.com was adopted on 7 December 2011."
+  },
+  {
+    "id": "source-upreal-journal-part-5",
+    "tier": 3,
+    "type": "First-party historical account",
+    "title": "PART 5 Adminnya Gue. Kuratornya Gue.",
+    "url": "https://www.uprealband.com/2026/10/part-5-adminnya-gue-kuratornya-gue.html",
+    "published": "2026-10-03",
+    "accessed": "2026-10-06",
+    "author": "Bany Uprealband",
+    "notes": "First-person retrospective explains the IEB Music Charts curation process and explicitly states that Brebeg Online Radio had its own chart as part of the wider activity network."
+  }
 ]
