@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "rel-ieb-reflexionpromosindo",
+    "from": "infoeventband",
+    "relation": "associated_with",
+    "to": "reflexionpromosindo",
+    "source_ids": ["source-gg-ieb-2013-11-03", "source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id": "rel-ieb-polyphonic",
+    "from": "infoeventband",
+    "relation": "promoted",
+    "to": "band-polyphonic",
+    "source_ids": ["source-gg-ieb-2013-11-27"]
+  },
+  {
+    "id": "rel-ieb-audrey",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-audrey-band",
+    "source_ids": ["source-gg-ieb-2013-11-03"]
+  },
+  {
+    "id": "rel-ieb-love-revelation",
+    "from": "infoeventband",
+    "relation": "promoted",
+    "to": "band-love-revelation",
+    "source_ids": ["source-gg-ieb-2013-11-03"]
+  }
+]
