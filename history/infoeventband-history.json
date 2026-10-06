@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "date": "2011-12",
+    "event": "IEB web archive contains event and music-related publications.",
+    "evidence": ["source-ieb-2011-12"]
+  },
+  {
+    "date": "2013-04",
+    "event": "A contemporary third-party publication documents IEB supporting an event in Depok, attending for documentation, and distributing IEB 2013 calendars.",
+    "evidence": ["source-projectbandmanager-2013-04"]
+  },
+  {
+    "date": "2013-05-10",
+    "event": "IEB's SoundCloud account publishes a compilation track and describes it as originating from songs selected from hundreds of indie bands through the Ajang Music Charts program.",
+    "evidence": ["source-soundcloud-ieb-2013"]
+  },
+  {
+    "date": "2013-11",
+    "event": "Contemporary syndicated material documents IEB's Music Charts, online competition, event support, band promotion, submission channels, and contributor activity.",
+    "evidence": ["source-gg-ieb-2013-11-03", "source-gg-ieb-2013-11-27"]
+  },
+  {
+    "date": "2013-11-29",
+    "event": "A first-party retrospective states that IEB served as media support for a singing competition and that its administrator represented IEB as a judge.",
+    "evidence": ["source-upreal-journal-part-7"]
+  },
+  {
+    "date": "2026-10-03",
+    "event": "A first-party journal retrospectively documents the transition from Reflexion Management and ReflexionPromosindo.com toward InfoEventBand.com and identifies its administrator.",
+    "evidence": ["source-upreal-journal-part-4"]
+  }
+]
