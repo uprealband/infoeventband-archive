@@ -1,30 +1,274 @@
 [
-  {"id":"rel-ieb-reflexionpromosindo","from":"infoeventband","relation":"associated_with","to":"reflexionpromosindo","source_ids":["source-gg-ieb-2013-11-03","source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-polyphonic","from":"infoeventband","relation":"promoted","to":"band-polyphonic","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-audrey","from":"infoeventband","relation":"featured","to":"band-audrey-band","source_ids":["source-gg-ieb-2013-11-03"]},
-  {"id":"rel-ieb-love-revelation","from":"infoeventband","relation":"promoted","to":"band-love-revelation","source_ids":["source-gg-ieb-2013-11-03"]},
-  {"id":"rel-ieb-bcycle","from":"infoeventband","relation":"featured","to":"band-bcycle","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-coaster","from":"infoeventband","relation":"featured","to":"band-coaster","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-arazi","from":"infoeventband","relation":"featured","to":"band-arazi","source_ids":["source-gg-ieb-2013-11-03","source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-u-rex","from":"infoeventband","relation":"featured","to":"band-u-rex","source_ids":["source-gg-ieb-2013-11-03"]},
-  {"id":"rel-ieb-watermelon","from":"infoeventband","relation":"featured","to":"band-watermelon-rock","source_ids":["source-gg-ieb-2013-11-03"]},
-  {"id":"rel-ieb-eksentrik","from":"infoeventband","relation":"featured","to":"band-eksentrik","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-harvest-moon","from":"infoeventband","relation":"featured","to":"band-harvest-moon","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-golden-light","from":"infoeventband","relation":"featured","to":"band-golden-light","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-frankenstein-street","from":"infoeventband","relation":"featured","to":"band-frankenstein-street","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-paper-clip","from":"infoeventband","relation":"featured","to":"band-paper-clip","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-auror","from":"infoeventband","relation":"featured","to":"band-auror","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-jenggo","from":"infoeventband","relation":"featured","to":"band-jenggo","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-jammin-2011","from":"infoeventband","relation":"documented","to":"event-jammin-on-the-street-2011","source_ids":["source-ieb-2011-12"]},
-  {"id":"rel-ieb-dmall-idol","from":"infoeventband","relation":"associated_with","to":"event-dmall-idol-2013","source_ids":["source-projectbandmanager-2013-04"]},
-  {"id":"rel-ieb-online-comp","from":"infoeventband","relation":"organized","to":"event-online-competition-2013-part-2","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-ciradio","from":"infoeventband","relation":"documented","to":"event-festival-competitions-band-ciradio-2013","source_ids":["source-gg-ieb-2013-11-27"]},
-  {"id":"rel-ieb-lotuz","from":"infoeventband","relation":"featured","to":"band-lotuz","source_ids":["source-ieb-2011-12"]},
-  {"id":"rel-ieb-aftur","from":"infoeventband","relation":"featured","to":"band-aftur","source_ids":["source-ieb-2011-12"]},
-  {"id":"rel-ieb-arthur","from":"infoeventband","relation":"featured","to":"band-the-arthur-band","source_ids":["source-ieb-2011-12"]},
-  {"id":"rel-ieb-festival-banten","from":"infoeventband","relation":"documented","to":"event-festival-musik-indie-banten-selatan-2011","source_ids":["source-ieb-2011-12"]},
-  {"id":"rel-ieb-cibubur","from":"infoeventband","relation":"documented","to":"event-new-year-cibubur-square-2012","source_ids":["source-ieb-2011-12"]},
-  {"id":"rel-ieb-fx","from":"infoeventband","relation":"documented","to":"event-new-year-fx-senayan-2012","source_ids":["source-ieb-2011-12"]},
-  {"id":"rel-ieb-teraskota","from":"infoeventband","relation":"documented","to":"event-new-year-teraskota-bsd-2012","source_ids":["source-ieb-2011-12"]},
-  {"id":"rel-ieb-parade-2011","from":"infoeventband","relation":"documented","to":"event-parade-band-akhir-tahun-2011","source_ids":["source-ieb-2011-12"]}
+  {
+    "id": "rel-ieb-reflexionpromosindo",
+    "from": "infoeventband",
+    "relation": "associated_with",
+    "to": "reflexionpromosindo",
+    "source_ids": [
+      "source-gg-ieb-2013-11-03",
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-polyphonic",
+    "from": "infoeventband",
+    "relation": "promoted",
+    "to": "band-polyphonic",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-audrey",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-audrey-band",
+    "source_ids": [
+      "source-gg-ieb-2013-11-03"
+    ]
+  },
+  {
+    "id": "rel-ieb-love-revelation",
+    "from": "infoeventband",
+    "relation": "promoted",
+    "to": "band-love-revelation",
+    "source_ids": [
+      "source-gg-ieb-2013-11-03"
+    ]
+  },
+  {
+    "id": "rel-ieb-bcycle",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-bcycle",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-coaster",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-coaster",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-arazi",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-arazi",
+    "source_ids": [
+      "source-gg-ieb-2013-11-03",
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-u-rex",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-u-rex",
+    "source_ids": [
+      "source-gg-ieb-2013-11-03"
+    ]
+  },
+  {
+    "id": "rel-ieb-watermelon",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-watermelon-rock",
+    "source_ids": [
+      "source-gg-ieb-2013-11-03"
+    ]
+  },
+  {
+    "id": "rel-ieb-eksentrik",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-eksentrik",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-harvest-moon",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-harvest-moon",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-golden-light",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-golden-light",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-frankenstein-street",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-frankenstein-street",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-paper-clip",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-paper-clip",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-auror",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-auror",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-jenggo",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-jenggo",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-jammin-2011",
+    "from": "infoeventband",
+    "relation": "documented",
+    "to": "event-jammin-on-the-street-2011",
+    "source_ids": [
+      "source-ieb-2011-12"
+    ]
+  },
+  {
+    "id": "rel-ieb-dmall-idol",
+    "from": "infoeventband",
+    "relation": "associated_with",
+    "to": "event-dmall-idol-2013",
+    "source_ids": [
+      "source-projectbandmanager-2013-04"
+    ]
+  },
+  {
+    "id": "rel-ieb-online-comp",
+    "from": "infoeventband",
+    "relation": "organized",
+    "to": "event-online-competition-2013-part-2",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-ciradio",
+    "from": "infoeventband",
+    "relation": "documented",
+    "to": "event-festival-competitions-band-ciradio-2013",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-lotuz",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-lotuz",
+    "source_ids": [
+      "source-ieb-2011-12"
+    ]
+  },
+  {
+    "id": "rel-ieb-aftur",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-aftur",
+    "source_ids": [
+      "source-ieb-2011-12"
+    ]
+  },
+  {
+    "id": "rel-ieb-arthur",
+    "from": "infoeventband",
+    "relation": "featured",
+    "to": "band-the-arthur-band",
+    "source_ids": [
+      "source-ieb-2011-12"
+    ]
+  },
+  {
+    "id": "rel-ieb-festival-banten",
+    "from": "infoeventband",
+    "relation": "documented",
+    "to": "event-festival-musik-indie-banten-selatan-2011",
+    "source_ids": [
+      "source-ieb-2011-12"
+    ]
+  },
+  {
+    "id": "rel-ieb-cibubur",
+    "from": "infoeventband",
+    "relation": "documented",
+    "to": "event-new-year-cibubur-square-2012",
+    "source_ids": [
+      "source-ieb-2011-12"
+    ]
+  },
+  {
+    "id": "rel-ieb-fx",
+    "from": "infoeventband",
+    "relation": "documented",
+    "to": "event-new-year-fx-senayan-2012",
+    "source_ids": [
+      "source-ieb-2011-12"
+    ]
+  },
+  {
+    "id": "rel-ieb-teraskota",
+    "from": "infoeventband",
+    "relation": "documented",
+    "to": "event-new-year-teraskota-bsd-2012",
+    "source_ids": [
+      "source-ieb-2011-12"
+    ]
+  },
+  {
+    "id": "rel-ieb-parade-2011",
+    "from": "infoeventband",
+    "relation": "documented",
+    "to": "event-parade-band-akhir-tahun-2011",
+    "source_ids": [
+      "source-ieb-2011-12"
+    ]
+  },
+  {
+    "id": "rel-ieb-ujung-genteng-2012",
+    "from": "infoeventband",
+    "relation": "organized",
+    "to": "event-ieb-contributor-trip-ujung-genteng-2012",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  },
+  {
+    "id": "rel-ieb-online-comp-part1",
+    "from": "infoeventband",
+    "relation": "organized",
+    "to": "event-online-competition-ieb-part-1-2012",
+    "source_ids": [
+      "source-gg-ieb-2013-11-27"
+    ]
+  }
 ]
