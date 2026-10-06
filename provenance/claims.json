@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "claim-ieb-existed-2011",
+    "subject": "infoeventband",
+    "claim": "INFOEVENTBAND.com had an active web archive containing event and music-related posts in December 2011.",
+    "claim_type": "documented_fact",
+    "source_ids": ["source-ieb-2011-12"],
+    "confidence": "high",
+    "notes": "Direct contemporary archive evidence."
+  },
+  {
+    "id": "claim-ieb-media-promotion-2013",
+    "subject": "infoeventband",
+    "claim": "In 2013, IEB operated as a music information, event support, and band promotion platform, including Music Charts and online competition activities.",
+    "claim_type": "documented_fact",
+    "source_ids": ["source-gg-ieb-2013-11-03", "source-gg-ieb-2013-11-27", "source-projectbandmanager-2013-04"],
+    "confidence": "high",
+    "notes": "Supported by multiple contemporary sources."
+  },
+  {
+    "id": "claim-ieb-music-charts-selected-bands",
+    "subject": "infoeventband",
+    "claim": "The Ajang Music Charts INFOEVENTBAND.COM program selected songs from indie bands, with a 2013 SoundCloud description referring to hundreds of bands.",
+    "claim_type": "documented_fact",
+    "source_ids": ["source-soundcloud-ieb-2013"],
+    "confidence": "high",
+    "notes": "The claim is limited to what the contemporary SoundCloud description states; it is not treated as an independently verified count of all IEB bands."
+  },
+  {
+    "id": "claim-ieb-reflexionpromosindo-link",
+    "subject": "infoeventband",
+    "claim": "Contemporary IEB syndicated material identified the service as 'INFOEVENTBAND.com, Powered by: ReflexionPromosindo.com'.",
+    "claim_type": "documented_fact",
+    "source_ids": ["source-gg-ieb-2013-11-03", "source-gg-ieb-2013-11-27"],
+    "confidence": "high",
+    "notes": "Direct contemporary branding evidence."
+  },
+  {
+    "id": "claim-ieb-admin-bany",
+    "subject": "infoeventband",
+    "claim": "A 2026 first-person historical account states that Bany managed/administered InfoEventBand.com and represented it at a 29 November 2013 singing competition.",
+    "claim_type": "first_party_account",
+    "source_ids": ["source-upreal-journal-part-4", "source-upreal-journal-part-7"],
+    "confidence": "medium",
+    "notes": "First-party retrospective. Keep distinct from contemporary third-party corroboration."
+  },
+  {
+    "id": "claim-ieb-separate-identity",
+    "subject": "infoeventband",
+    "claim": "A first-party retrospective describes InfoEventBand.com as a separate media identity developed after Reflexion Management and ReflexionPromosindo.com.",
+    "claim_type": "first_party_account",
+    "source_ids": ["source-upreal-journal-part-4"],
+    "confidence": "medium",
+    "notes": "Historical interpretation/account, not treated as a sole contemporary proof of the entire origin story."
+  }
+]
