@@ -5,12 +5,12 @@
     "date": "2011-12-27",
     "location": {
       "city": "Depok",
-      "province": "West Java",
+      "province": "Jawa Barat",
       "country": "Indonesia"
     },
     "event_type": "music event",
     "archive_status": "Documented",
-    "notes": "IEB published event documentation and a related visit by the Jammin On The Street team to the IEB office in December 2011.",
+    "notes": "IEB menerbitkan dokumentasi acara dan catatan kunjungan tim Jammin On The Street ke kantor IEB pada Desember 2011.",
     "source_ids": [
       "source-ieb-2011-12"
     ]
@@ -21,12 +21,12 @@
     "date": "2013-02-17",
     "location": {
       "city": "Depok",
-      "province": "West Java",
+      "province": "Jawa Barat",
       "country": "Indonesia"
     },
     "event_type": "talent competition",
     "archive_status": "Documented",
-    "notes": "Contemporary event listing identifies Infoeventband.com as a media partner.",
+    "notes": "Daftar acara sezaman mengidentifikasi Infoeventband.com sebagai mitra media.",
     "source_ids": [
       "source-projectbandmanager-2013-04"
     ]
@@ -42,7 +42,7 @@
     },
     "event_type": "online music competition",
     "archive_status": "Documented",
-    "notes": "IEB announced a free annual competition accepting one song per participant, followed by playlist publication and online voting. The source states the program was held in conjunction with IEB's second anniversary on 7 December 2013.",
+    "notes": "IEB mengumumkan kompetisi tahunan gratis yang menerima satu lagu per peserta, dilanjutkan dengan publikasi playlist dan pemungutan suara daring. Sumber menyatakan program ini diselenggarakan bertepatan dengan ulang tahun kedua IEB pada 7 Desember 2013.",
     "source_ids": [
       "source-gg-ieb-2013-11-27"
     ]
@@ -53,12 +53,12 @@
     "date": "2013-12-01",
     "location": {
       "city": "Cirebon",
-      "province": "West Java",
+      "province": "Jawa Barat",
       "country": "Indonesia"
     },
     "event_type": "band competition",
     "archive_status": "Documented",
-    "notes": "Listed in IEB syndicated material with prizes including free recording, development funds, radio talk show, trophy and certificate.",
+    "notes": "Tercantum dalam materi IEB yang disindikasi dengan hadiah berupa rekaman gratis, dana pengembangan, talk show radio, trofi, dan sertifikat.",
     "source_ids": [
       "source-gg-ieb-2013-11-27"
     ]
@@ -74,7 +74,7 @@
     },
     "event_type": "music festival",
     "archive_status": "Documented",
-    "notes": "IEB December 2011 archive lists the festival as an upcoming event.",
+    "notes": "Arsip IEB Desember 2011 mencantumkan festival ini sebagai acara yang akan berlangsung.",
     "source_ids": [
       "source-ieb-2011-12"
     ]
@@ -85,12 +85,12 @@
     "date": "2011-12-30",
     "location": {
       "city": "Cibubur",
-      "province": "West Java",
+      "province": "Jawa Barat",
       "country": "Indonesia"
     },
     "event_type": "New Year music event",
     "archive_status": "Documented",
-    "notes": "IEB December 2011 archive lists the event for New Year 2012.",
+    "notes": "Arsip IEB Desember 2011 mencantumkan acara ini untuk perayaan Tahun Baru 2012.",
     "source_ids": [
       "source-ieb-2011-12"
     ]
@@ -106,7 +106,7 @@
     },
     "event_type": "New Year music event",
     "archive_status": "Documented",
-    "notes": "IEB December 2011 archive lists the New Year event at FX Senayan.",
+    "notes": "Arsip IEB Desember 2011 mencantumkan acara Tahun Baru di FX Senayan.",
     "source_ids": [
       "source-ieb-2011-12"
     ]
@@ -122,7 +122,7 @@
     },
     "event_type": "New Year music event",
     "archive_status": "Documented",
-    "notes": "IEB December 2011 archive lists the New Year event at TerasKota BSD City.",
+    "notes": "Arsip IEB Desember 2011 mencantumkan acara Tahun Baru di TerasKota BSD City.",
     "source_ids": [
       "source-ieb-2011-12"
     ]
@@ -138,7 +138,7 @@
     },
     "event_type": "band event",
     "archive_status": "Documented",
-    "notes": "IEB December 2011 archive lists the event.",
+    "notes": "Arsip IEB Desember 2011 mencantumkan acara ini.",
     "source_ids": [
       "source-ieb-2011-12"
     ]
@@ -149,12 +149,12 @@
     "date": "2012",
     "location": {
       "city": "Ujung Genteng",
-      "province": "West Java",
+      "province": "Jawa Barat",
       "country": "Indonesia"
     },
     "event_type": "IEB internal contributor activity",
     "archive_status": "Documented",
-    "notes": "A contemporary IEB archive preserved in Google Groups states that IEB contributors went to Ujung Genteng, Sukabumi in 2012 as their year-end trip. Exact date and itinerary are not yet reconstructed.",
+    "notes": "Arsip IEB sezaman yang tersimpan di Google Groups menyatakan bahwa para kontributor IEB pergi ke Ujung Genteng, Sukabumi pada 2012 sebagai perjalanan akhir tahun. Tanggal dan rute kegiatan secara tepat belum direkonstruksi.",
     "source_ids": [
       "source-gg-ieb-2013-11-27"
     ]
@@ -170,7 +170,7 @@
     },
     "event_type": "online music competition",
     "archive_status": "Partially documented",
-    "notes": "A November 2013 IEB archive describes Part 2 as a return of the annual online song competition and explicitly directs readers to information about the previous year's competition. Exact 2012 rules, dates and participant list are not yet reconstructed.",
+    "notes": "Arsip IEB November 2013 menjelaskan Part 2 sebagai kembalinya kompetisi lagu daring tahunan dan secara eksplisit mengarahkan pembaca ke informasi kompetisi tahun sebelumnya. Aturan, tanggal, dan daftar peserta edisi 2012 secara tepat belum direkonstruksi.",
     "source_ids": [
       "source-gg-ieb-2013-11-27"
     ]
@@ -186,7 +186,7 @@
     },
     "event_type": "online music chart / voting",
     "archive_status": "Documented",
-    "notes": "IEB documented Ajang Music Charts Part 5 as its own music-selection/chart program. Contemporary IEB material and the 2026 first-party retrospective separately identify Brebeg Online Radio as having its own chart. The archive currently verifies the existence and winner of Part 5, but the exact voting-end date should not be inferred solely from the syndicated archive.",
+    "notes": "IEB mendokumentasikan Ajang Music Charts Part 5 sebagai program seleksi/tangga musiknya sendiri. Materi IEB sezaman dan retrospektif pihak pertama tahun 2026 secara terpisah mengidentifikasi Brebeg Online Radio sebagai pihak yang memiliki chart sendiri. Arsip saat ini memverifikasi keberadaan dan pemenang Part 5, tetapi tanggal berakhirnya pemungutan suara tidak boleh disimpulkan hanya dari arsip yang disindikasi.",
     "source_ids": [
       "source-gg-ieb-2013-11-03",
       "source-gg-ieb-2013-11-27"
@@ -203,7 +203,7 @@
     },
     "event_type": "band festival / bazaar",
     "archive_status": "Documented",
-    "notes": "A primary-source Blogger admin screenshot shows a published 4 January 2011 post carrying the INFO EVENT BAND label under ReflexionPromosindo.com.",
+    "notes": "Tangkapan layar admin Blogger dari sumber primer menunjukkan pos yang diterbitkan pada 4 Januari 2011 dengan label INFO EVENT BAND di bawah ReflexionPromosindo.com.",
     "source_ids": [
       "source-reflexion-blog-2011-01-admin-view"
     ]
@@ -219,7 +219,7 @@
     },
     "event_type": "acoustic music event",
     "archive_status": "Documented",
-    "notes": "A primary-source Blogger admin screenshot shows a published 4 January 2011 post carrying the INFO EVENT BAND label under ReflexionPromosindo.com.",
+    "notes": "Tangkapan layar admin Blogger dari sumber primer menunjukkan pos yang diterbitkan pada 4 Januari 2011 dengan label INFO EVENT BAND di bawah ReflexionPromosindo.com.",
     "source_ids": [
       "source-reflexion-blog-2011-01-admin-view"
     ]
@@ -236,7 +236,7 @@
     },
     "event_type": "band festival / music parade",
     "archive_status": "Documented",
-    "notes": "Primary-source INFO EVENT BAND page from November 2011 documents the Serpong event. The associated poster states WTC Serpong, 12-13 November, FESTIVAL BAND, participant limit of 25 bands, one free-choice song plus one original song. The poster also identifies ReflexionPromosindo.com as 're informed by'.",
+    "notes": "Halaman INFO EVENT BAND sumber primer dari November 2011 mendokumentasikan acara di Serpong. Poster terkait menyebut WTC Serpong, 12-13 November, FESTIVAL BAND, batas peserta 25 band, satu lagu bebas dan satu lagu orisinal. Poster tersebut juga mencantumkan ReflexionPromosindo.com sebagai 're informed by'.",
     "source_ids": [
       "source-reflexion-blog-honda-parade-2011-11"
     ]
