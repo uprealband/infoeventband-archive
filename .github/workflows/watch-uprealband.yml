@@ -1,0 +1,114 @@
+name: Watch Uprealband Sources
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout IEB archive
+        uses: actions/checkout@v4
+
+      - name: Fetch Uprealband sources
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p ingest/snapshots ingest/candidates
+
+          curl -L --fail --silent --show-error \
+            "https://www.uprealband.com/feeds/posts/default?alt=json&max-results=50" \
+            -o ingest/snapshots/uprealband-blog-feed.json
+
+          curl -L --fail --silent --show-error \
+            "https://raw.githubusercontent.com/uprealband/perjalanan-band-indie/main/archive-index.json" \
+            -o ingest/snapshots/uprealband-archive-index.json
+
+          curl -L --fail --silent --show-error \
+            "https://api.github.com/repos/uprealband/perjalanan-band-indie/commits/main" \
+            -H "Accept: application/vnd.github+json" \
+            -o ingest/snapshots/uprealband-github-head.json
+
+      - name: Detect relevant IEB references
+        shell: python
+        run: |
+          import json, pathlib, re, hashlib
+
+          root = pathlib.Path("ingest/snapshots")
+          candidates = []
+
+          feed = json.loads((root / "uprealband-blog-feed.json").read_text(encoding="utf-8"))
+          entries = feed.get("feed", {}).get("entry", [])
+
+          terms = re.compile(
+              r"(infoeventband|infoeventband\.com|ieb|reflexion|brebeg|"
+              r"brebeg online radio|jus brebeg|nc media radio|unity music)",
+              re.IGNORECASE
+          )
+
+          for entry in entries:
+              text = json.dumps(entry, ensure_ascii=False)
+              if terms.search(text):
+                  candidates.append({
+                      "candidate_type": "blog_post",
+                      "source_url": next(
+                          (x.get("href") for x in entry.get("link", [])
+                           if x.get("rel") == "alternate"),
+                          None
+                      ),
+                      "title": entry.get("title", {}).get("$t"),
+                      "published": entry.get("published", {}).get("$t"),
+                      "reason": "Konten Uprealband memuat istilah/entitas yang berpotensi berkaitan dengan sejarah IEB.",
+                      "status": "needs_review"
+                  })
+
+          index = json.loads((root / "uprealband-archive-index.json").read_text(encoding="utf-8"))
+          index_text = json.dumps(index, ensure_ascii=False)
+
+          if terms.search(index_text):
+              candidates.append({
+                  "candidate_type": "github_archive_index",
+                  "source_url": "https://github.com/uprealband/perjalanan-band-indie/blob/main/archive-index.json",
+                  "title": "Uprealband archive-index.json",
+                  "reason": "Indeks arsip GitHub Uprealband memuat istilah/entitas yang berpotensi berkaitan dengan sejarah IEB.",
+                  "status": "needs_review"
+              })
+
+          state = json.loads((root / "uprealband-github-head.json").read_text(encoding="utf-8"))
+          head = state.get("sha")
+
+          payload = {
+              "schema_version": "1.0",
+              "generated_at": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(),
+              "upstream": {
+                  "repository": "uprealband/perjalanan-band-indie",
+                  "main_sha": head,
+                  "blog_feed": "https://www.uprealband.com/feeds/posts/default?alt=json&max-results=50"
+              },
+              "candidates": candidates
+          }
+
+          out = pathlib.Path("ingest/candidates/uprealband-candidates.json")
+          out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+      - name: Commit detected source changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "IEB Archive Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add ingest/
+          if git diff --cached --quiet; then
+            echo "No source changes."
+            exit 0
+          fi
+
+          git commit -m "chore: sync Uprealband source watch"
+          git push
