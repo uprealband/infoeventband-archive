@@ -101,5 +101,17 @@
     ],
     "confidence": "high",
     "notes": "The 2013 announcement is contemporary and explicitly uses 'tahun lalu' for the prior competition. Participant list and exact dates for the 2012 edition remain unverified."
+  },
+  {
+    "id": "claim-ieb-music-charts-part5-2013",
+    "subject": "event-ajang-music-charts-part-5-2013",
+    "claim": "IEB documented that voting for Ajang Music Charts Part 5 ended on 26 October 2013 and that Habibi Sank's song 'Ibu' received the most votes.",
+    "claim_type": "documented_fact",
+    "source_ids": [
+      "source-gg-ieb-2013-11-03",
+      "source-gg-ieb-2013-11-27"
+    ],
+    "confidence": "high",
+    "notes": "Contemporary IEB syndicated archive. This establishes Part 5 as a distinct chart/voting program, separate from the later Online Competition Part 2."
   }
 ]
