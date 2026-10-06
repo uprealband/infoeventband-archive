@@ -140,5 +140,25 @@
     "accessed": "2026-10-06",
     "author": "Bany",
     "notes": "Project owner's oral recollection states that in 2013 he had moved back to working in Jakarta, while his first child was born in February 2013. He recalls that IEB activity subsequently slowed and the domain eventually became inactive. Exact timing of the slowdown and domain expiration remains unverified."
+  },
+  {
+    "id": "source-ieb-proposal-2013-02",
+    "tier": 1,
+    "type": "Primary-source operational document",
+    "title": "PROPOSAL PENAWARAN PEMASANGAN IKLAN INFOEVENTBAND.COM - REF ARYO GEMA",
+    "published": "2013-02",
+    "accessed": "2026-10-06",
+    "author": "INFOEVENTBAND.COM",
+    "notes": "Contemporary IEB advertising proposal from February 2013. Documents IEB's self-described identity as music information and promotion media, end-2010 web movement, social/RSS distribution through contributor-affiliated networks, Google Search/SEO strategy, offline promotion and media-partner activity, Ajang Music Charts, radio collaboration, IEB BLAST, mobile web and Android application, and paid promotion tiers. Appendix pages include evidence of field coverage, SMS promotion, musician/event photography, and supported events. Exact scale claims are preserved as claims made in the document, not independently verified totals."
+  },
+  {
+    "id": "source-ieb-android-apk-v4-2013",
+    "tier": 1,
+    "type": "Primary-source digital artifact",
+    "title": "INFOEVENTBAND.COM Android Application, Version 4.0",
+    "published": "2013-11",
+    "accessed": "2026-10-06",
+    "author": "INFOEVENTBAND.COM",
+    "notes": "Archived Android APK with package com.info.event.band, based on AppYet. Contains IEB-specific branding and modules/resources for feed/RSS, articles, audio, podcast, video, download, web, contact and Music Chart. Internal APK timestamps include March 2013 assets and November 2013 metadata/resources. The timestamp is treated as evidence of the artifact's internal activity period, not automatically as its public release date. Contemporary IEB material directs Android users to the INFO EVENT BAND app on Google Play, and a contemporary promotional source identifies the same Google Play package ID."
   }
 ]
