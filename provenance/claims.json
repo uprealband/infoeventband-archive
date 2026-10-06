@@ -135,5 +135,28 @@
     ],
     "confidence": "medium",
     "notes": "Do not model Brebeg as a subprogram of Music Charts or assert formal ownership without additional contemporary evidence."
+  },
+  {
+    "id": "claim-info-event-band-blog-2011-01",
+    "subject": "info-event-band.blogspot.com",
+    "claim": "By 4 January 2011, the ReflexionPromosindo.com Blogger site was already publishing posts labeled INFO EVENT BAND, including band/event information for Festival Band dan Bazaar Tahun 2011 and Jammin' Session @ MC Donalds.",
+    "claim_type": "documented_fact",
+    "source_ids": [
+      "source-reflexion-blog-2011-01-admin-view"
+    ],
+    "confidence": "high",
+    "notes": "Direct primary-source screenshot from the Blogger admin view supplied by the project owner."
+  },
+  {
+    "id": "claim-info-event-band-reflexion-identity-2011",
+    "subject": "infoeventband",
+    "claim": "The 4 January 2011 Blogger admin view links the INFO EVENT BAND identity directly to ReflexionPromosindo.com, predating the documented adoption of infoeventband.com on 7 December 2011.",
+    "claim_type": "documented_fact",
+    "source_ids": [
+      "source-reflexion-blog-2011-01-admin-view",
+      "source-reverbnation-favian-ieb"
+    ],
+    "confidence": "high",
+    "notes": "This materially strengthens the historical bridge from the ReflexionPromosindo phase to the infoeventband.com phase."
   }
 ]
