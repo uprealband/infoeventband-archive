@@ -2,40 +2,40 @@
   {
     "id": "claim-ieb-existed-2011",
     "subject": "infoeventband",
-    "claim": "INFOEVENTBAND.com had an active web archive containing event and music-related posts in December 2011.",
+    "claim": "INFOEVENTBAND.com memiliki arsip web aktif yang memuat pos terkait acara dan musik pada Desember 2011.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-ieb-2011-12"
     ],
     "confidence": "high",
-    "notes": "Direct contemporary archive evidence."
+    "notes": "Bukti arsip sezaman secara langsung."
   },
   {
     "id": "claim-ieb-domain-2011-12-07",
     "subject": "infoeventband",
-    "claim": "A contemporary IEB promotional profile states that event and band information sharing began at the end of 2010 under another domain and that infoeventband.com was adopted on 7 December 2011.",
+    "claim": "Profil promosi IEB sezaman menyatakan bahwa berbagi informasi acara dan band dimulai pada akhir 2010 di bawah domain lain dan infoeventband.com digunakan pada 7 Desember 2011.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-reverbnation-favian-ieb"
     ],
     "confidence": "high",
-    "notes": "The source is a contemporary promotional profile published by the IEB Music Charts identity."
+    "notes": "Sumbernya adalah profil promosi sezaman yang diterbitkan oleh identitas IEB Music Charts."
   },
   {
     "id": "claim-ieb-activity-2012",
     "subject": "infoeventband",
-    "claim": "IEB activity continued through 2012; a contemporary 2013 IEB archive references the previous year's annual online competition and a 2012 contributor trip to Ujung Genteng Sukabumi.",
+    "claim": "Aktivitas IEB berlanjut sepanjang 2012; arsip IEB sezaman pada 2013 merujuk pada kompetisi daring tahunan tahun sebelumnya dan perjalanan kontributor ke Ujung Genteng, Sukabumi pada 2012.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-gg-ieb-2013-11-27"
     ],
     "confidence": "medium",
-    "notes": "This is retrospective evidence preserved in a contemporary 2013 archive. Exact 2012 program details remain to be reconstructed."
+    "notes": "Ini merupakan bukti retrospektif yang tersimpan dalam arsip sezaman 2013. Rincian program 2012 secara tepat masih perlu direkonstruksi."
   },
   {
     "id": "claim-ieb-media-promotion-2013",
     "subject": "infoeventband",
-    "claim": "In 2013, IEB operated as a music information, event support, and band promotion platform, including Music Charts and online competition activities.",
+    "claim": "Pada 2013, IEB beroperasi sebagai platform informasi musik, dukungan acara, dan promosi band, termasuk kegiatan Music Charts dan kompetisi daring.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-gg-ieb-2013-11-03",
@@ -43,215 +43,215 @@
       "source-projectbandmanager-2013-04"
     ],
     "confidence": "high",
-    "notes": "Supported by multiple contemporary sources."
+    "notes": "Didukung oleh beberapa sumber sezaman."
   },
   {
     "id": "claim-ieb-music-charts-selected-bands",
     "subject": "infoeventband",
-    "claim": "The Ajang Music Charts INFOEVENTBAND.COM program selected songs from indie bands, with a 2013 SoundCloud description referring to hundreds of bands.",
+    "claim": "Program Ajang Music Charts INFOEVENTBAND.COM memilih lagu dari band-band indie, dengan deskripsi SoundCloud tahun 2013 yang menyebut ratusan band.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-soundcloud-ieb-2013"
     ],
     "confidence": "high",
-    "notes": "Limited to what the contemporary description states; not treated as an independently verified count of all IEB bands."
+    "notes": "Terbatas pada apa yang dinyatakan deskripsi sezaman; tidak diperlakukan sebagai jumlah seluruh band IEB yang telah diverifikasi secara independen."
   },
   {
     "id": "claim-ieb-reflexionpromosindo-link",
     "subject": "infoeventband",
-    "claim": "Contemporary IEB syndicated material identified the service as 'INFOEVENTBAND.com, Powered by: ReflexionPromosindo.com'.",
+    "claim": "Materi sindikasi IEB sezaman mengidentifikasi layanan tersebut sebagai 'INFOEVENTBAND.com, Powered by: ReflexionPromosindo.com'.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-gg-ieb-2013-11-03",
       "source-gg-ieb-2013-11-27"
     ],
     "confidence": "high",
-    "notes": "Direct contemporary branding evidence."
+    "notes": "Bukti branding sezaman secara langsung."
   },
   {
     "id": "claim-ieb-admin-bany",
     "subject": "infoeventband",
-    "claim": "A 2026 first-person historical account states that Bany managed/administered InfoEventBand.com and represented it at a 29 November 2013 singing competition.",
+    "claim": "Catatan sejarah orang pertama tahun 2026 menyatakan bahwa Bany mengelola/menjadi administrator InfoEventBand.com dan mewakilinya pada kompetisi menyanyi 29 November 2013.",
     "claim_type": "first_party_account",
     "source_ids": [
       "source-upreal-journal-part-4",
       "source-upreal-journal-part-7"
     ],
     "confidence": "medium",
-    "notes": "First-party retrospective. Kept distinct from contemporary third-party corroboration."
+    "notes": "Retrospektif pihak pertama. Dipisahkan dari koroborasi pihak ketiga sezaman."
   },
   {
     "id": "claim-ieb-separate-identity",
     "subject": "infoeventband",
-    "claim": "A first-party retrospective describes InfoEventBand.com as a separate media identity developed after Reflexion Management and ReflexionPromosindo.com.",
+    "claim": "Retrospektif pihak pertama menggambarkan InfoEventBand.com sebagai identitas media yang terpisah, yang berkembang setelah Reflexion Management dan ReflexionPromosindo.com.",
     "claim_type": "first_party_account",
     "source_ids": [
       "source-upreal-journal-part-4"
     ],
     "confidence": "medium",
-    "notes": "Historical account, not treated as sole contemporary proof of the entire origin story."
+    "notes": "Catatan sejarah, bukan bukti sezaman tunggal untuk keseluruhan kisah asal-usul."
   },
   {
     "id": "claim-ieb-online-competition-part1-2012",
     "subject": "event-online-competition-ieb-part-1-2012",
-    "claim": "A November 2013 IEB announcement explicitly refers readers to information about the INFOEVENTBAND.COM online competition held the previous year, establishing that an earlier edition existed in 2012.",
+    "claim": "Pengumuman IEB November 2013 secara eksplisit merujuk pembaca pada informasi kompetisi daring INFOEVENTBAND.COM yang diselenggarakan tahun sebelumnya, sehingga menetapkan bahwa edisi sebelumnya ada pada 2012.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-gg-ieb-2013-11-27"
     ],
     "confidence": "high",
-    "notes": "The 2013 announcement is contemporary and explicitly uses 'tahun lalu' for the prior competition. Participant list and exact dates for the 2012 edition remain unverified."
+    "notes": "Pengumuman 2013 bersifat sezaman dan secara eksplisit menggunakan 'tahun lalu' untuk kompetisi sebelumnya. Daftar peserta dan tanggal tepat edisi 2012 masih belum terverifikasi."
   },
   {
     "id": "claim-ieb-music-charts-part5-2013",
     "subject": "event-ajang-music-charts-part-5-2013",
-    "claim": "IEB documented Ajang Music Charts Part 5 as its own music-selection/chart program; contemporary IEB material separately identifies a Brebeg Online Radio chart, so the two programs should not be conflated. IEB records Habibi Sank's song 'Ibu' as receiving the most votes in Part 5.",
+    "claim": "IEB mendokumentasikan Ajang Music Charts Part 5 sebagai program seleksi/tangga musiknya sendiri; materi IEB sezaman secara terpisah mengidentifikasi chart Brebeg Online Radio, sehingga kedua program tidak boleh disamakan. IEB mencatat lagu 'Ibu' milik Habibi Sank memperoleh suara terbanyak pada Part 5.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-gg-ieb-2013-11-03",
       "source-gg-ieb-2013-11-27"
     ],
     "confidence": "high",
-    "notes": "Keep the exact voting-end date unresolved until a direct contemporary Part 5 post is found."
+    "notes": "Biarkan tanggal berakhirnya pemungutan suara tetap belum ditentukan sampai pos Part 5 sezaman yang langsung ditemukan."
   },
   {
     "id": "claim-brebeg-had-separate-chart",
     "subject": "brebeg-online-radio",
-    "claim": "A 2026 first-party retrospective states that Brebeg Online Radio had its own chart, distinct from InfoEventBand.com's Music Charts program.",
+    "claim": "Retrospektif pihak pertama tahun 2026 menyatakan bahwa Brebeg Online Radio memiliki chart sendiri yang berbeda dari program Music Charts InfoEventBand.com.",
     "claim_type": "first_party_account",
     "source_ids": [
       "source-upreal-journal-part-5"
     ],
     "confidence": "medium",
-    "notes": "This distinction is important for the archive model: Brebeg Online Radio is a related activity, not an alternate name for Ajang Music Charts."
+    "notes": "Pembedaan ini penting untuk model arsip: Brebeg Online Radio merupakan kegiatan terkait, bukan nama lain dari Ajang Music Charts."
   },
   {
     "id": "claim-brebeg-relationship-status",
     "subject": "brebeg-online-radio",
-    "claim": "Brebeg Online Radio was a separate activity in the same wider network of projects handled by the IEB administrator, alongside Music Charts and SMS event-information services; current evidence does not establish whether Brebeg was formally owned by IEB or operated as a separate organization.",
+    "claim": "Brebeg Online Radio merupakan kegiatan terpisah dalam jaringan proyek yang lebih luas yang ditangani administrator IEB, berdampingan dengan Music Charts dan layanan informasi acara melalui SMS; bukti saat ini belum menetapkan apakah Brebeg secara formal dimiliki IEB atau beroperasi sebagai organisasi terpisah.",
     "claim_type": "first_party_account",
     "source_ids": [
       "source-upreal-journal-part-5"
     ],
     "confidence": "medium",
-    "notes": "Do not model Brebeg as a subprogram of Music Charts or assert formal ownership without additional contemporary evidence."
+    "notes": "Jangan memodelkan Brebeg sebagai subprogram Music Charts atau menyatakan kepemilikan formal tanpa bukti sezaman tambahan."
   },
   {
     "id": "claim-info-event-band-blog-2011-01",
     "subject": "info-event-band.blogspot.com",
-    "claim": "By 4 January 2011, the ReflexionPromosindo.com Blogger site was already publishing posts labeled INFO EVENT BAND, including band/event information for Festival Band dan Bazaar Tahun 2011 and Jammin' Session @ MC Donalds.",
+    "claim": "Pada 4 Januari 2011, situs Blogger ReflexionPromosindo.com sudah menerbitkan pos berlabel INFO EVENT BAND, termasuk informasi band/acara untuk Festival Band dan Bazaar Tahun 2011 serta Jammin' Session @ MC Donalds.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-reflexion-blog-2011-01-admin-view"
     ],
     "confidence": "high",
-    "notes": "Direct primary-source screenshot from the Blogger admin view supplied by the project owner."
+    "notes": "Tangkapan layar sumber primer langsung dari tampilan admin Blogger yang disediakan pemilik proyek."
   },
   {
     "id": "claim-info-event-band-reflexion-identity-2011",
     "subject": "infoeventband",
-    "claim": "The 4 January 2011 Blogger admin view links the INFO EVENT BAND identity directly to ReflexionPromosindo.com, predating the documented adoption of infoeventband.com on 7 December 2011.",
+    "claim": "Tampilan admin Blogger 4 Januari 2011 menghubungkan identitas INFO EVENT BAND secara langsung dengan ReflexionPromosindo.com, mendahului penggunaan infoeventband.com yang terdokumentasi pada 7 Desember 2011.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-reflexion-blog-2011-01-admin-view",
       "source-reverbnation-favian-ieb"
     ],
     "confidence": "high",
-    "notes": "This materially strengthens the historical bridge from the ReflexionPromosindo phase to the infoeventband.com phase."
+    "notes": "Ini secara material memperkuat jembatan sejarah dari fase ReflexionPromosindo menuju fase infoeventband.com."
   },
   {
     "id": "claim-ieb-web-movement-started-end-2010",
     "subject": "infoeventband",
-    "claim": "IEB's own May 2013 'Tentang INFOEVENTBAND.COM' page states that its web movement began at the end of 2010 as a commitment to contribute to music development through online distribution of information for bands.",
+    "claim": "Halaman 'Tentang INFOEVENTBAND.COM' milik IEB pada Mei 2013 menyatakan bahwa gerakan webnya dimulai pada akhir 2010 sebagai komitmen untuk berkontribusi terhadap perkembangan musik melalui distribusi daring informasi untuk band.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-ieb-about-2013-05-29"
     ],
     "confidence": "high",
-    "notes": "Contemporary first-party statement. It establishes the claimed beginning of the web movement, but does not by itself establish the exact domain used at that time."
+    "notes": "Pernyataan pihak pertama sezaman. Ini menetapkan awal gerakan web sebagaimana diklaim, tetapi tidak dengan sendirinya menetapkan domain tepat yang digunakan pada saat itu."
   },
   {
     "id": "claim-ieb-search-seo-strategy-2013",
     "subject": "infoeventband",
-    "claim": "In May 2013, IEB explicitly described Google Search and SEO as part of its online strategy for making published information discoverable, including keywords related to gigs, band promotion, and event information.",
+    "claim": "Pada Mei 2013, IEB secara eksplisit menjelaskan Google Search dan SEO sebagai bagian dari strategi daring untuk membuat informasi yang dipublikasikan mudah ditemukan, termasuk kata kunci terkait gig, promosi band, dan informasi acara.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-ieb-about-2013-05-29"
     ],
     "confidence": "high",
-    "notes": "Direct first-party contemporary description of IEB's discovery strategy."
+    "notes": "Deskripsi pihak pertama sezaman secara langsung mengenai strategi penemuan IEB."
   },
   {
     "id": "claim-ieb-2013-operating-model",
     "subject": "infoeventband",
-    "claim": "By May 2013, IEB described itself as an indie website operating as music information and promotion media, with online distribution, offline promotion, event media-partner activity, Ajang Music Charts, radio collaboration, SMS promotion, Android distribution, and multiple promotion-service tiers.",
+    "claim": "Pada Mei 2013, IEB mendeskripsikan dirinya sebagai situs indie yang beroperasi sebagai media informasi dan promosi musik, dengan distribusi daring, promosi luring, kegiatan mitra media acara, Ajang Music Charts, kerja sama radio, promosi SMS, distribusi Android, dan beberapa tingkatan layanan promosi.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-ieb-about-2013-05-29"
     ],
     "confidence": "high",
-    "notes": "Direct first-party contemporary description. Individual historical scale claims such as hundreds of events are retained as claims made by the source, not independently verified totals."
+    "notes": "Deskripsi pihak pertama sezaman secara langsung. Klaim skala historis seperti ratusan acara dipertahankan sebagai klaim yang dibuat sumber, bukan total yang diverifikasi secara independen."
   },
   {
     "id": "claim-ieb-slowdown-after-2013",
     "subject": "infoeventband",
-    "claim": "According to a first-party oral recollection, IEB activity slowed during or after 2013 as the administrator's work returned to Jakarta and family responsibilities changed after the birth of his first child in February 2013; the domain eventually became inactive.",
+    "claim": "Menurut ingatan lisan pihak pertama, aktivitas IEB melambat selama atau setelah 2013 ketika pekerjaan administratornya kembali ke Jakarta dan tanggung jawab keluarga berubah setelah kelahiran anak pertamanya pada Februari 2013; domain tersebut akhirnya tidak aktif.",
     "claim_type": "first_party_account",
     "source_ids": [
       "source-bany-oral-history-2026-10-06"
     ],
     "confidence": "medium",
-    "notes": "This records the project owner's recollection as historical context, not as a precisely dated contemporary fact. The exact date of domain expiration is not established."
+    "notes": "Ini mencatat ingatan pemilik proyek sebagai konteks sejarah, bukan sebagai fakta sezaman dengan tanggal yang presisi. Tanggal kedaluwarsa domain secara tepat belum ditetapkan."
   },
   {
     "id": "claim-ieb-2013-operational-network",
     "subject": "infoeventband",
-    "claim": "A February 2013 IEB operational proposal describes a distribution model in which published website content was automatically propagated through affiliated social-network accounts and pages, while Google Search/SEO was used as a separate discovery channel.",
+    "claim": "Proposal operasional IEB Februari 2013 menjelaskan model distribusi di mana konten situs yang diterbitkan secara otomatis disebarkan melalui akun dan halaman jejaring sosial yang berafiliasi, sementara Google Search/SEO digunakan sebagai jalur penemuan yang terpisah.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-ieb-proposal-2013-02"
     ],
     "confidence": "high",
-    "notes": "The proposal describes the network as affiliated accounts/pages and explains the aggregate friendlist reach. It should not be interpreted as proof that all listed accounts were owned by IEB."
+    "notes": "Proposal menggambarkan jaringan tersebut sebagai akun/halaman yang berafiliasi dan menjelaskan jangkauan friendlist secara agregat. Ini tidak boleh ditafsirkan sebagai bukti bahwa seluruh akun yang tercantum dimiliki IEB."
   },
   {
     "id": "claim-ieb-2013-offline-media-model",
     "subject": "infoeventband",
-    "claim": "The February 2013 proposal states that IEB combined online activity with offline promotion, event coverage, interviews, event-organizer cooperation, media-partner activity, Ajang Music Charts, live-performance opportunities, CD compilation distribution, and recurring collaboration with online radio.",
+    "claim": "Proposal Februari 2013 menyatakan bahwa IEB menggabungkan aktivitas daring dengan promosi luring, liputan acara, wawancara, kerja sama dengan penyelenggara acara, kegiatan mitra media, Ajang Music Charts, kesempatan tampil langsung, distribusi CD kompilasi, dan kerja sama berulang dengan radio daring.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-ieb-proposal-2013-02"
     ],
     "confidence": "high",
-    "notes": "The proposal's scale statement about media partnership at hundreds of events is retained as a claim made by IEB, not independently verified."
+    "notes": "Pernyataan skala proposal mengenai kemitraan media pada ratusan acara dipertahankan sebagai klaim yang dibuat IEB, bukan sesuatu yang diverifikasi secara independen."
   },
   {
     "id": "claim-ieb-blast-2013",
     "subject": "infoeventband",
-    "claim": "In February 2013, IEB described an SMS service called IEB BLAST using a database of more than 400 mobile numbers belonging to bands, media, and event organizers.",
+    "claim": "Pada Februari 2013, IEB menjelaskan layanan SMS bernama IEB BLAST yang menggunakan basis data lebih dari 400 nomor ponsel milik band, media, dan penyelenggara acara.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-ieb-proposal-2013-02"
     ],
     "confidence": "high",
-    "notes": "The 400+ figure is the proposal's stated database size at the time."
+    "notes": "Angka 400+ adalah ukuran basis data yang dinyatakan proposal pada saat itu."
   },
   {
     "id": "claim-ieb-android-2013",
     "subject": "infoeventband",
-    "claim": "By February 2013, IEB stated that it had made its website suitable for mobile devices and had created an Android application; the proposal includes screenshots showing the mobile website and an IEB Android feed interface.",
+    "claim": "Pada Februari 2013, IEB menyatakan bahwa situsnya telah disesuaikan untuk perangkat mobile dan telah membuat aplikasi Android; proposal memuat tangkapan layar situs mobile dan antarmuka feed Android IEB.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-ieb-proposal-2013-02",
       "source-ieb-android-apk-v4-2013"
     ],
     "confidence": "high",
-    "notes": "The proposal provides contemporary visual evidence; the archived APK provides a separate digital artifact."
+    "notes": "Proposal menyediakan bukti visual sezaman; APK arsip menyediakan artefak digital yang terpisah."
   },
   {
     "id": "claim-ieb-google-play-android-app",
     "subject": "infoeventband",
-    "claim": "The INFO EVENT BAND Android application was publicly distributed through Google Play under package ID com.info.event.band.",
+    "claim": "Aplikasi Android INFO EVENT BAND didistribusikan secara publik melalui Google Play dengan package ID com.info.event.band.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-gg-ieb-2013-11-27",
@@ -259,12 +259,12 @@
       "source-ieb-android-apk-v4-2013"
     ],
     "confidence": "high",
-    "notes": "Contemporary IEB material directs Android users to the app on Google Play, while the promotional source identifies the same package ID as the archived APK. The current availability of the historical Play listing is not asserted."
+    "notes": "Materi IEB sezaman mengarahkan pengguna Android ke aplikasi di Google Play, sementara sumber promosi mengidentifikasi package ID yang sama dengan APK arsip. Ketersediaan listing Play historis tersebut saat ini tidak dinyatakan."
   },
   {
     "id": "claim-ieb-proposal-media-self-definition",
     "subject": "infoeventband",
-    "claim": "In February 2013, IEB described itself as an indie website operating as music information and promotion media focused on bands and events, with the stated web movement beginning at the end of 2010.",
+    "claim": "Pada Februari 2013, IEB mendeskripsikan dirinya sebagai situs indie yang beroperasi sebagai media informasi dan promosi musik dengan fokus pada band dan acara, dengan gerakan web yang dinyatakan dimulai pada akhir 2010.",
     "claim_type": "documented_fact",
     "source_ids": [
       "source-ieb-proposal-2013-02"
