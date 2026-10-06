@@ -270,5 +270,15 @@
     "source_ids": [
       "source-gg-ieb-2013-11-27"
     ]
+  },
+  {
+    "id": "rel-ieb-music-charts-part5",
+    "from": "infoeventband",
+    "relation": "organized",
+    "to": "event-ajang-music-charts-part-5-2013",
+    "source_ids": [
+      "source-gg-ieb-2013-11-03",
+      "source-gg-ieb-2013-11-27"
+    ]
   }
 ]
