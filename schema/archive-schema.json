@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://infoeventband.com/schema/archive-schema.json",
+  "title": "INFOEVENTBAND.COM Historical Archive",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "archive",
+    "entities",
+    "relationships",
+    "historical_assertions",
+    "sources"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "archive": {
+      "type": "object",
+      "required": ["name", "principle", "type", "country"],
+      "properties": {
+        "name": {"type": "string"},
+        "principle": {"type": "string"},
+        "type": {"type": "string"},
+        "country": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "entities": {
+      "type": "object",
+      "properties": {
+        "bands": {"type": "array"},
+        "events": {"type": "array"},
+        "articles": {"type": "array"},
+        "people": {"type": "array"},
+        "organizations": {"type": "array"},
+        "works": {"type": "array"}
+      },
+      "additionalProperties": false
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "from", "relation", "to"],
+        "properties": {
+          "id": {"type": "string"},
+          "from": {"type": "string"},
+          "relation": {"type": "string"},
+          "to": {"type": "string"},
+          "source_ids": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "historical_assertions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "subject", "claim", "claim_type", "source_ids"],
+        "properties": {
+          "id": {"type": "string"},
+          "subject": {"type": "string"},
+          "claim": {"type": "string"},
+          "claim_type": {
+            "type": "string",
+            "enum": [
+              "documented_fact",
+              "first_party_account",
+              "contemporary_third_party",
+              "retrospective",
+              "unverified_lead"
+            ]
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {"type": "string"},
+            "minItems": 1
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["high", "medium", "low", "unknown"]
+          },
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "tier", "type", "title"],
+        "properties": {
+          "id": {"type": "string"},
+          "tier": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4
+          },
+          "type": {"type": "string"},
+          "title": {"type": "string"},
+          "url": {"type": "string"},
+          "published": {"type": ["string", "null"]},
+          "accessed": {"type": ["string", "null"]},
+          "author": {"type": ["string", "null"]},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
