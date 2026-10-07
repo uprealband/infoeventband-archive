@@ -8,6 +8,14 @@
   "candidates": [
     {
       "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/10/infoeventbandcom-era-jurnal-bany.html",
+      "title": "InfoEventBand.com ERA : Jurnal Bany Uprealband",
+      "published": "2026-10-07T16:09:44.006+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
       "source_url": "https://www.uprealband.com/2026/10/part-7-ketika-harus-merem.html",
       "title": "PART 7 KETIKA HARUS MEREM (Jurnal Bany Uprealband)",
       "published": "2026-10-03T04:03:59.775+07:00",
