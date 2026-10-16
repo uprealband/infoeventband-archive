@@ -63,14 +63,6 @@
       "status": "needs_review"
     },
     {
-      "candidate_type": "blog_post",
-      "source_url": "https://www.uprealband.com/2026/09/puncak-2011-liburan-nongkrong-dan.html",
-      "title": "Puncak 2011: Liburan, Nongkrong, dan Ternyata Ada Rapat Juga",
-      "published": "2026-09-22T20:25:51.517+07:00",
-      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
-      "status": "needs_review"
-    },
-    {
       "candidate_type": "github_archive_index",
       "source_url": "https://github.com/uprealband/perjalanan-band-indie/blob/main/archive-index.json",
       "title": "Uprealband archive-index.json",
