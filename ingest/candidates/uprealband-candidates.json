@@ -8,6 +8,14 @@
   "candidates": [
     {
       "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/10/menyelamatkan-jejak-digital.html",
+      "title": "Menyelamatkan Jejak Digital, Merekonstruksi Perjalanan, jurnal bany Uprealband",
+      "published": "2026-10-17T20:29:18.493+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
       "source_url": "https://www.uprealband.com/2026/10/infoeventbandcom-era-jurnal-bany.html",
       "title": "InfoEventBand.com ERA : Jurnal Bany Uprealband",
       "published": "2026-10-07T16:09:44.006+07:00",
