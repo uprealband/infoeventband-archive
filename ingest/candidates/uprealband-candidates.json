@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "upstream": {
     "repository": "uprealband/perjalanan-band-indie",
-    "main_sha": "b96a75445cd500c87f5b24744bfc3a2b0cb431e0",
+    "main_sha": "30ec84233fe76902d6ba110a3ecff36739968c17",
     "blog_feed": "https://www.uprealband.com/feeds/posts/default?alt=json&max-results=50"
   },
   "candidates": [
