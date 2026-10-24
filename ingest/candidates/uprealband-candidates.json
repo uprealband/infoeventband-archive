@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "upstream": {
     "repository": "uprealband/perjalanan-band-indie",
-    "main_sha": "078571c6aeeac56fcc647e34234b24d2d5999763",
+    "main_sha": "e40bd69d939e133b7aa202625ab4e584fb01bc16",
     "blog_feed": "https://www.uprealband.com/feeds/posts/default?alt=json&max-results=50"
   },
   "candidates": [
@@ -59,14 +59,6 @@
       "source_url": "https://www.uprealband.com/2026/10/part-3-uprealband-punya-manajemen.html",
       "title": "PART 3  Uprealband Punya Manajemen Bayangan (Jurnal Bany Uprealband)",
       "published": "2026-10-03T03:22:12.920+07:00",
-      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
-      "status": "needs_review"
-    },
-    {
-      "candidate_type": "blog_post",
-      "source_url": "https://www.uprealband.com/2026/10/part-1-penutup-mata-kura-kura-ninja-dan.html",
-      "title": "PART 2  Dulu Uprealband Pernah Share info event, Kok Sepi? (Jurnal Bany Uprealband)",
-      "published": "2026-10-03T03:05:48.309+07:00",
       "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
       "status": "needs_review"
     },
