@@ -47,14 +47,6 @@
       "status": "needs_review"
     },
     {
-      "candidate_type": "blog_post",
-      "source_url": "https://www.uprealband.com/2026/10/part-4-dari-reflexionpromosindo-ke.html",
-      "title": "PART 4  Dari ReflexionPromosindo ke InfoEventBand.com (Jurnal Bany Uprealband)",
-      "published": "2026-10-03T03:27:45.027+07:00",
-      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
-      "status": "needs_review"
-    },
-    {
       "candidate_type": "github_archive_index",
       "source_url": "https://github.com/uprealband/perjalanan-band-indie/blob/main/archive-index.json",
       "title": "Uprealband archive-index.json",
