@@ -8,6 +8,30 @@
   "candidates": [
     {
       "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/11/momo-dari-monyet-nyinyir-menjadi.html",
+      "title": "MOMO: DARI MONYET NYINYIR MENJADI MANUSIA, TAPI TETAP ANTI-UPREALBAND",
+      "published": "2026-11-05T21:20:32.949+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/11/uprealia-menjadi-aprilia-siput-yang.html",
+      "title": "UPREALIA MENJADI APRILIA: SIPUT YANG BERJALAN LAMBAT, TAPI MENINGGALKAN JEJAK",
+      "published": "2026-11-05T20:25:34.000+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/11/aprilia-aryo-dua-juru-bicara-banyak.html",
+      "title": "APRILIA & ARYO: DUA JURU BICARA, BANYAK KEMUNGKINAN CERITA",
+      "published": "2026-11-05T19:58:14.523+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
       "source_url": "https://www.uprealband.com/2026/11/gig-mode-universe-ketika-musik-bertemu.html",
       "title": "GIG MODE UNIVERSE: KETIKA MUSIK BERTEMU CERITA",
       "published": "2026-11-05T18:16:34.000+07:00",
