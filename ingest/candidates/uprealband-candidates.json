@@ -8,6 +8,14 @@
   "candidates": [
     {
       "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/11/ku-pergi-bany-aprilia-hadirkan-nuansa.html",
+      "title": "KU PERGI: Bany & Aprilia Hadirkan Nuansa Intimate Grand Piano di GIG MODE",
+      "published": "2026-11-20T21:59:35.843+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
       "source_url": "https://www.uprealband.com/2026/11/uprealband-hadirkan-chatbot-aprilia-dan.html",
       "title": "UPREALBAND HADIRKAN CHATBOT APRILIA DAN TEXT-TO-SPEECH DI GIG MODE UNIVERSE, PENGEMBANGAN AI UNTUK EKOSISTEM WEBSITE TERUS DIEKSPLORASI",
       "published": "2026-11-10T16:39:14.332+07:00",
