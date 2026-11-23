@@ -8,6 +8,14 @@
   "candidates": [
     {
       "candidate_type": "blog_post",
+      "source_url": "https://www.uprealband.com/2026/11/bisakah-ai-merekonstruksi-gaya-panggung.html",
+      "title": "Bisakah AI Merekonstruksi Gaya Panggung Uprealband?",
+      "published": "2026-11-23T16:48:22.071+07:00",
+      "reason": "Konten Uprealband memuat istilah atau entitas yang berpotensi berkaitan dengan sejarah IEB.",
+      "status": "needs_review"
+    },
+    {
+      "candidate_type": "blog_post",
       "source_url": "https://www.uprealband.com/2026/11/guns-n-roses-antara-legenda-usia-dan.html",
       "title": "CATATAN BANY : Guns N’ Roses: Antara Legenda, Usia, dan Pilihan untuk Terus Berkarya",
       "published": "2026-11-22T20:59:54.000+07:00",
