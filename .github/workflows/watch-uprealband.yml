@@ -21,9 +21,15 @@ jobs:
           set -euo pipefail
           mkdir -p ingest/tmp ingest/candidates
 
-          curl -L --fail --silent --show-error \
-            "https://www.uprealband.com/feeds/posts/default?alt=json&max-results=50" \
-            -o ingest/tmp/uprealband-blog-feed.json
+          BLOG_FEED_URL="https://www.uprealband.com/feeds/posts/default?alt=json&max-results=50"
+          echo "Fetching Blogger feed: $BLOG_FEED_URL"
+          if ! curl -L --fail --silent --show-error --retry 2 --retry-delay 2 \
+            --user-agent "Mozilla/5.0 (compatible; UprealbandArchiveBot/1.0)" \
+            "$BLOG_FEED_URL" -o ingest/tmp/uprealband-blog-feed.json; then
+            echo "::warning::Blogger feed returned an error; keeping previously detected blog candidates."
+            rm -f ingest/tmp/uprealband-blog-feed.json
+            touch ingest/tmp/blog-feed-unavailable
+          fi
 
           curl -L --fail --silent --show-error \
             "https://raw.githubusercontent.com/uprealband/perjalanan-band-indie/main/archive-index.json" \
@@ -41,8 +47,22 @@ jobs:
 
           root = pathlib.Path("ingest/tmp")
           candidates = []
+          out = pathlib.Path("ingest/candidates/uprealband-candidates.json")
+          previous_payload = (
+              json.loads(out.read_text(encoding="utf-8")) if out.exists() else {}
+          )
 
-          feed = json.loads((root / "uprealband-blog-feed.json").read_text(encoding="utf-8"))
+          feed_path = root / "uprealband-blog-feed.json"
+          if feed_path.exists():
+              feed = json.loads(feed_path.read_text(encoding="utf-8"))
+          else:
+              # Preserve prior blog findings when Blogger blocks the scheduled runner.
+              candidates.extend(
+                  item for item in previous_payload.get("candidates", [])
+                  if item.get("candidate_type") == "blog_post"
+              )
+              print("::warning::Blogger feed unavailable; preserved prior blog candidates.")
+              feed = {"feed": {"entry": []}}
           terms = re.compile(
               r"(infoeventband|infoeventband\.com|\bieb\b|reflexion|brebeg|"
               r"brebeg online radio|jus brebeg|nc media radio|unity music)",
@@ -89,7 +109,6 @@ jobs:
               "candidates": candidates
           }
 
-          out = pathlib.Path("ingest/candidates/uprealband-candidates.json")
           new_text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
           old_text = out.read_text(encoding="utf-8") if out.exists() else ""
 
