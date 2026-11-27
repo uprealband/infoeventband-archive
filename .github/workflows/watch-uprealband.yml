@@ -23,10 +23,21 @@ jobs:
 
           BLOG_FEED_URL="https://www.uprealband.com/feeds/posts/default?alt=json&max-results=50"
           echo "Fetching Blogger feed: $BLOG_FEED_URL"
-          if ! curl -L --fail --silent --show-error --retry 2 --retry-delay 2 \
+          # Blogger may deny requests from GitHub-hosted runners (HTTP 403).
+          # Treat a blocked/unreachable feed as an unavailable source, not a fatal job.
+          if BLOG_HTTP_STATUS=$(curl -L --silent --show-error --retry 2 --retry-delay 2 \
             --user-agent "Mozilla/5.0 (compatible; UprealbandArchiveBot/1.0)" \
-            "$BLOG_FEED_URL" -o ingest/tmp/uprealband-blog-feed.json; then
-            echo "::warning::Blogger feed returned an error; keeping previously detected blog candidates."
+            --output ingest/tmp/uprealband-blog-feed.json \
+            --write-out "%{http_code}" "$BLOG_FEED_URL"); then
+            if [[ "$BLOG_HTTP_STATUS" =~ ^2[0-9][0-9]$ ]]; then
+              echo "Blogger feed fetched successfully (HTTP $BLOG_HTTP_STATUS)."
+            else
+              echo "::warning::Blogger feed returned HTTP $BLOG_HTTP_STATUS; preserving prior blog candidates."
+              rm -f ingest/tmp/uprealband-blog-feed.json
+              touch ingest/tmp/blog-feed-unavailable
+            fi
+          else
+            echo "::warning::Blogger feed request failed; preserving prior blog candidates."
             rm -f ingest/tmp/uprealband-blog-feed.json
             touch ingest/tmp/blog-feed-unavailable
           fi
